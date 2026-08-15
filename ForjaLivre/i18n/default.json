@@ -1,0 +1,26 @@
+{
+    "button.stat.choose": "Choose Stat",
+    "button.stat.chosen": "Stat: {{stat}}",
+    "button.enchant.choose": "Choose Enchantment",
+    "button.enchant.chosen": "Enchant: {{enchant}}",
+
+    "menu.stat.title": "Choose the stat to forge",
+    "menu.enchant.title": "Choose the enchantment to apply",
+
+    "stat.damage": "Damage",
+    "stat.speed": "Speed",
+    "stat.critchance": "Crit. Chance",
+    "stat.critpower": "Crit. Power",
+    "stat.defense": "Defense",
+    "stat.weight": "Weight",
+
+    "enchant.artful": "Artful",
+    "enchant.bugkiller": "Bug Killer",
+    "enchant.crusader": "Crusader",
+    "enchant.vampiric": "Vampiric",
+    "enchant.haymaker": "Haymaker",
+
+    "row.level": "(current level: {{level}})",
+    "row.applied": "(already applied)",
+    "row.unavailable": "(unavailable)"
+}

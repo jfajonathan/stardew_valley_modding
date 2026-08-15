@@ -1,0 +1,12 @@
+{
+    "$schema": "https://smapi.io/schemas/manifest.json",
+    "Name": "Forja Livre",
+    "Author": "jonathan",
+    "Version": "1.0.0",
+    "Description": "Na Forja do Vulcão, escolha livremente qual estatística ou encantamento aplicar em armas corpo-a-corpo, sem limite de níveis.",
+    "UniqueID": "jonathan.ForjaLivre",
+    "EntryDll": "ForjaLivre.dll",
+    "MinimumApiVersion": "4.0.0",
+    "MinimumGameVersion": "1.6.0",
+    "UpdateKeys": []
+}

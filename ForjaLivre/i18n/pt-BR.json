@@ -1,0 +1,26 @@
+{
+    "button.stat.choose": "Escolher Estatística",
+    "button.stat.chosen": "Estatística: {{stat}}",
+    "button.enchant.choose": "Escolher Encantamento",
+    "button.enchant.chosen": "Encantamento: {{enchant}}",
+
+    "menu.stat.title": "Escolha a estatística para forjar",
+    "menu.enchant.title": "Escolha o encantamento para aplicar",
+
+    "stat.damage": "Dano",
+    "stat.speed": "Velocidade",
+    "stat.critchance": "Chance Crítica",
+    "stat.critpower": "Ataque Crítico",
+    "stat.defense": "Defesa",
+    "stat.weight": "Peso",
+
+    "enchant.artful": "Hábil",
+    "enchant.bugkiller": "Matador de Insetos",
+    "enchant.crusader": "Cruzado",
+    "enchant.vampiric": "Vampírico",
+    "enchant.haymaker": "Fazedor de Feno",
+
+    "row.level": "(nível atual: {{level}})",
+    "row.applied": "(já aplicado)",
+    "row.unavailable": "(indisponível)"
+}
