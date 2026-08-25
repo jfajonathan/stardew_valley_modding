@@ -1,0 +1,16 @@
+{
+    "Name": "NewGreenhouseUpgrades.CP",
+    "Author": "LovelyChao",
+    "Version": "1.0.0",
+    "Description": "Allows Greenhouse upgrades for more space and auto-watering.",
+    "UniqueID": "LovelyChao.NewGreenhouseUpgrades.CP",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+  "Dependencies": [
+    {
+       "UniqueID": "LovelyChaoAndBpendragon.NewGreenhouseUpgrades",
+       "IsRequired": true
+    }
+  ]
+}

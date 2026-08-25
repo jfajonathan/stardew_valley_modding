@@ -1,0 +1,34 @@
+{
+
+  "Format": "2.0.0",
+  
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "maps/GreenHouse",
+      "FromFile": "assets/Greenhouse1.tmx",
+      "When": {
+        "LovelyChaoAndBpendragon.NewGreenhouseUpgrades/GreenHouseLevel": "1"
+   }
+    },
+
+    {
+      "Action": "Load",
+      "Target": "maps/GreenHouse",
+      "FromFile": "assets/Greenhouse2.tmx",
+      "When": {
+        "LovelyChaoAndBpendragon.NewGreenhouseUpgrades/GreenHouseLevel": "2"
+   }
+    },
+
+    {
+      "Action": "Load",
+      "Target": "maps/GreenHouse",
+      "FromFile": "assets/Greenhouse2.tmx",
+      "When": {
+        "LovelyChaoAndBpendragon.NewGreenhouseUpgrades/GreenHouseLevel": "3"
+   }
+    }
+
+  ]
+}

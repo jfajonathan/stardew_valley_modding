@@ -1,0 +1,15 @@
+{
+  "Name": "NewGreenhouseUpgrades",
+  "Author": "LovelyChao And Bpendragon",
+  "Version": "1.0.0",
+  "Description": "Pay Robin off to add automatic sprinklers to the greenhouse, allowing 100% utilization",
+  "UniqueID": "LovelyChaoAndBpendragon.NewGreenhouseUpgrades",
+  "EntryDll": "NewGreenhouseUpgrades.dll",
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": false
+    }
+  ],
+  "UpdateKeys": [ "Nexus:35846", "GitHub:wbc666/NewGreenhouseUpgrades" ]
+}

@@ -1,0 +1,105 @@
+{
+  "DifficultySettings": [
+    {
+      "Difficulty": "Easy",
+      "FirstUpgrade": {
+        "Sprinkler": "Iridium",
+        "SprinklerCount": 0,
+        "Gold": 60000,
+        "Batteries": 0,
+        "Hearts": 0
+      },
+      "SecondUpgrade": {
+        "Sprinkler": "Iridium",
+        "SprinklerCount": 18,
+        "Gold": 150000,
+        "Batteries": 4,
+        "Hearts": 0
+      },
+      "FinalUpgrade": {
+        "Sprinkler": "Iridium",
+        "SprinklerCount": 20,
+        "Gold": 300000,
+        "Batteries": 8,
+        "Hearts": 0
+      }
+    },
+    {
+      "Difficulty": "Medium",
+      "FirstUpgrade": {
+        "Sprinkler": "Iridium",
+        "SprinklerCount": 5,
+        "Gold": 80000,
+        "Batteries": 0,
+        "Hearts": 0
+      },
+      "SecondUpgrade": {
+        "Sprinkler": "Iridium",
+        "SprinklerCount": 20,
+        "Gold": 200000,
+        "Batteries": 10,
+        "Hearts": 0
+      },
+      "FinalUpgrade": {
+        "Sprinkler": "Iridium",
+        "SprinklerCount": 24,
+        "Gold": 360000,
+        "Batteries": 16,
+        "Hearts": 0
+      }
+    },
+    {
+      "Difficulty": "Hard",
+      "FirstUpgrade": {
+        "Sprinkler": "Iridium",
+        "SprinklerCount": 0,
+        "Gold": 100000,
+        "Batteries": 0,
+        "Hearts": 0
+      },
+      "SecondUpgrade": {
+        "Sprinkler": "Iridium",
+        "SprinklerCount": 24,
+        "Gold": 250000,
+        "Batteries": 18,
+        "Hearts": 0
+      },
+      "FinalUpgrade": {
+        "Sprinkler": "Iridium",
+        "SprinklerCount": 30,
+        "Gold": 420000,
+        "Batteries": 26,
+        "Hearts": 0
+      }
+    },
+    {
+      "Difficulty": "Custom",
+      "FirstUpgrade": {
+        "Sprinkler": "Iridium",
+        "SprinklerCount": 5,
+        "Gold": 80000,
+        "Batteries": 0,
+        "Hearts": 0
+      },
+      "SecondUpgrade": {
+        "Sprinkler": "Iridium",
+        "SprinklerCount": 20,
+        "Gold": 200000,
+        "Batteries": 10,
+        "Hearts": 0
+      },
+      "FinalUpgrade": {
+        "Sprinkler": "Iridium",
+        "SprinklerCount": 24,
+        "Gold": 360000,
+        "Batteries": 16,
+        "Hearts": 0
+      }
+    }
+  ],
+  "SelectedDifficulty": "Medium",
+  "ShowVisualUpgrades": true,
+  "WaterSandOnBeachFarm": true,
+  "MaxNumberOfUpgrades": 3,
+  "BuildDays": 3
+}
