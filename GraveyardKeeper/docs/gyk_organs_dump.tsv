@@ -1,0 +1,86 @@
+id	name	type	q_plus	q_minus	q_hint	show_q_hint	quality_type	desc
+tr_bellas_ring	Anel da sacerdotisa	BodyUniversalPart	0	0			Default	
+skull	Caveira	BodyUniversalPart	0	-1		Ppar("p_cultist")> 0	Default	
+bone	Osso	BodyUniversalPart	0	0		Ppar("p_cultist")> 0	Default	
+flesh	Carne	BodyUniversalPart	1	0		Ppar("p_cultist")> 0	Default	
+fat	Gordura	BodyUniversalPart	-1	1		Ppar("p_cultist")> 0	Default	
+blood	Sangue	BodyUniversalPart	-1	1		Ppar("p_cultist")> 0	Default	
+skin	Pele	BodyUniversalPart	1	-1		Ppar("p_cultist")> 0	Default	
+brain_dark	Cérebro sombrio	BodyUniversalPart	1	4		Ppar("p_cultist")> 0	Default	
+heart_dark	Coração sombrio	BodyUniversalPart	1	4		Ppar("p_cultist")> 0	Default	
+intestine_dark	Intestinos sombrios	BodyUniversalPart	1	4		Ppar("p_cultist")> 0	Default	
+lungs_dark	Pulmões sombrios	BodyUniversalPart	1	4		Ppar("p_cultist")> 0	Default	
+brain:brain_0_0	Cérebro	BodyUniversalPart	0	0		Ppar("p_cultist")> 0	Default	
+brain:brain_1_1	Cérebro	BodyUniversalPart	1	1		Ppar("p_cultist")> 0	Default	
+brain:brain_2_-1	Cérebro	BodyUniversalPart	-1	2		Ppar("p_cultist")> 0	Default	
+brain:brain_0_2	Cérebro	BodyUniversalPart	2	0		Ppar("p_cultist")> 0	Default	
+brain:brain_2_0	Cérebro	BodyUniversalPart	0	2		Ppar("p_cultist")> 0	Default	
+brain:brain_0_1	Cérebro	BodyUniversalPart	1	0		Ppar("p_cultist")> 0	Default	
+brain:brain_2_1	Cérebro	BodyUniversalPart	1	2		Ppar("p_cultist")> 0	Default	
+brain:brain_2_2	Cérebro	BodyUniversalPart	2	2		Ppar("p_cultist")> 0	Default	
+brain:brain_-2_3	Cérebro	BodyUniversalPart	3	-2		Ppar("p_cultist")> 0	Default	
+brain:brain_4_1	Cérebro	BodyUniversalPart	1	4		Ppar("p_cultist")> 0	Default	
+brain:brain_3_3	Cérebro	BodyUniversalPart	3	3		Ppar("p_cultist")> 0	Default	
+brain:brain_0_3	Cérebro	BodyUniversalPart	3	0		Ppar("p_cultist")> 0	Default	
+brain:brain_1_0	Cérebro	BodyUniversalPart	0	1		Ppar("p_cultist")> 0	Default	
+brain:brain_1_2	Cérebro	BodyUniversalPart	2	1		Ppar("p_cultist")> 0	Default	
+brain:brain_1_3	Cérebro	BodyUniversalPart	3	1		Ppar("p_cultist")> 0	Default	
+brain:brain_2_3	Cérebro	BodyUniversalPart	3	2		Ppar("p_cultist")> 0	Default	
+brain:brain_3_0	Cérebro	BodyUniversalPart	0	3		Ppar("p_cultist")> 0	Default	
+brain:brain_3_1	Cérebro	BodyUniversalPart	1	3		Ppar("p_cultist")> 0	Default	
+brain:brain_3_2	Cérebro	BodyUniversalPart	2	3		Ppar("p_cultist")> 0	Default	
+brain:brain_3_-1	Cérebro	BodyUniversalPart	-1	3		Ppar("p_cultist")> 0	Default	
+brain:brain_-1_3	Cérebro	BodyUniversalPart	3	-1		Ppar("p_cultist")> 0	Default	
+brain:brain_4_2	Cérebro	BodyUniversalPart	2	4		Ppar("p_cultist")> 0	Default	
+brain:brain_4_3	Cérebro	BodyUniversalPart	3	4		Ppar("p_cultist")> 0	Default	
+heart:heart_0_0	Coração	BodyUniversalPart	0	0		Ppar("p_cultist")> 0	Default	
+heart:heart_1_1	Coração	BodyUniversalPart	1	1		Ppar("p_cultist")> 0	Default	
+heart:heart_2_-1	Coração	BodyUniversalPart	-1	2		Ppar("p_cultist")> 0	Default	
+heart:heart_0_2	Coração	BodyUniversalPart	2	0		Ppar("p_cultist")> 0	Default	
+heart:heart_2_0	Coração	BodyUniversalPart	0	2		Ppar("p_cultist")> 0	Default	
+heart:heart_0_1	Coração	BodyUniversalPart	1	0		Ppar("p_cultist")> 0	Default	
+heart:heart_2_1	Coração	BodyUniversalPart	1	2		Ppar("p_cultist")> 0	Default	
+heart:heart_2_2	Coração	BodyUniversalPart	2	2		Ppar("p_cultist")> 0	Default	
+heart:heart_-2_3	Coração	BodyUniversalPart	3	-2		Ppar("p_cultist")> 0	Default	
+heart:heart_4_1	Coração	BodyUniversalPart	1	4		Ppar("p_cultist")> 0	Default	
+heart:heart_3_3	Coração	BodyUniversalPart	3	3		Ppar("p_cultist")> 0	Default	
+heart:heart_0_3	Coração	BodyUniversalPart	3	0		Ppar("p_cultist")> 0	Default	
+heart:heart_1_0	Coração	BodyUniversalPart	0	1		Ppar("p_cultist")> 0	Default	
+heart:heart_1_2	Coração	BodyUniversalPart	2	1		Ppar("p_cultist")> 0	Default	
+heart:heart_1_3	Coração	BodyUniversalPart	3	1		Ppar("p_cultist")> 0	Default	
+heart:heart_2_3	Coração	BodyUniversalPart	3	2		Ppar("p_cultist")> 0	Default	
+heart:heart_3_0	Coração	BodyUniversalPart	0	3		Ppar("p_cultist")> 0	Default	
+heart:heart_3_1	Coração	BodyUniversalPart	1	3		Ppar("p_cultist")> 0	Default	
+heart:heart_3_2	Coração	BodyUniversalPart	2	3		Ppar("p_cultist")> 0	Default	
+heart:heart_3_-1	Coração	BodyUniversalPart	-1	3		Ppar("p_cultist")> 0	Default	
+heart:heart_-1_3	Coração	BodyUniversalPart	3	-1		Ppar("p_cultist")> 0	Default	
+heart:heart_4_2	Coração	BodyUniversalPart	2	4		Ppar("p_cultist")> 0	Default	
+heart:heart_4_3	Coração	BodyUniversalPart	3	4		Ppar("p_cultist")> 0	Default	
+intestine:intestine_0_0	Intestinos	BodyUniversalPart	0	0		Ppar("p_cultist")> 0	Default	
+intestine:intestine_1_1	Intestinos	BodyUniversalPart	1	1		Ppar("p_cultist")> 0	Default	
+intestine:intestine_2_-1	Intestinos	BodyUniversalPart	-1	2		Ppar("p_cultist")> 0	Default	
+intestine:intestine_0_2	Intestinos	BodyUniversalPart	2	0		Ppar("p_cultist")> 0	Default	
+intestine:intestine_2_0	Intestinos	BodyUniversalPart	0	2		Ppar("p_cultist")> 0	Default	
+intestine:intestine_0_1	Intestinos	BodyUniversalPart	1	0		Ppar("p_cultist")> 0	Default	
+intestine:intestine_2_1	Intestinos	BodyUniversalPart	1	2		Ppar("p_cultist")> 0	Default	
+intestine:intestine_2_2	Intestinos	BodyUniversalPart	2	2		Ppar("p_cultist")> 0	Default	
+intestine:intestine_-2_3	Intestinos	BodyUniversalPart	3	-2		Ppar("p_cultist")> 0	Default	
+intestine:intestine_4_1	Intestinos	BodyUniversalPart	1	4		Ppar("p_cultist")> 0	Default	
+intestine:intestine_3_3	Intestinos	BodyUniversalPart	3	3		Ppar("p_cultist")> 0	Default	
+intestine:intestine_0_3	Intestinos	BodyUniversalPart	3	0		Ppar("p_cultist")> 0	Default	
+intestine:intestine_1_0	Intestinos	BodyUniversalPart	0	1		Ppar("p_cultist")> 0	Default	
+intestine:intestine_1_2	Intestinos	BodyUniversalPart	2	1		Ppar("p_cultist")> 0	Default	
+intestine:intestine_1_3	Intestinos	BodyUniversalPart	3	1		Ppar("p_cultist")> 0	Default	
+intestine:intestine_2_3	Intestinos	BodyUniversalPart	3	2		Ppar("p_cultist")> 0	Default	
+intestine:intestine_3_0	Intestinos	BodyUniversalPart	0	3		Ppar("p_cultist")> 0	Default	
+intestine:intestine_3_1	Intestinos	BodyUniversalPart	1	3		Ppar("p_cultist")> 0	Default	
+intestine:intestine_3_2	Intestinos	BodyUniversalPart	2	3		Ppar("p_cultist")> 0	Default	
+intestine:intestine_3_-1	Intestinos	BodyUniversalPart	-1	3		Ppar("p_cultist")> 0	Default	
+intestine:intestine_-1_3	Intestinos	BodyUniversalPart	3	-1		Ppar("p_cultist")> 0	Default	
+intestine:intestine_4_2	Intestinos	BodyUniversalPart	2	4		Ppar("p_cultist")> 0	Default	
+intestine:intestine_4_3	Intestinos	BodyUniversalPart	3	4		Ppar("p_cultist")> 0	Default	
+organs:organs_1	Órgãos	BodyUniversalPart	0	0		Ppar("p_cultist")> 0	Default	
+scalp	Couro cabeludo	BodyUniversalPart	0	0		Ppar("show_q_bparts") > 0	Default	
+tongue	Língua	BodyUniversalPart	0	0		Ppar("show_q_bparts") > 0	Default	
+eye	Olho	BodyUniversalPart	0	0		Ppar("show_q_bparts") > 0	Default	
+muscle	Músculo	BodyUniversalPart	0	0		Ppar("show_q_bparts") > 0	Default	

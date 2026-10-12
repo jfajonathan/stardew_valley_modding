@@ -1,0 +1,28 @@
+using System.Collections;
+using System.IO;
+using System.Text;
+using BepInEx;
+using UnityEngine;
+
+[BepInPlugin("tmp.gyk.itemdumper", "GYK Item Dumper", "0.0.2")]
+public class Plugin : BaseUnityPlugin
+{
+    private IEnumerator Start()
+    {
+        yield return new WaitForSeconds(15f);
+        var sb = new StringBuilder();
+        sb.AppendLine("id\tname\ttype\tq_plus\tq_minus\tq_hint\tshow_q_hint\tquality_type\tdesc");
+        foreach (var d in GameBalance.me.items_data)
+        {
+            if (d == null || d.not_used || d.type != ItemDefinition.ItemType.BodyUniversalPart) continue;
+            string name, desc;
+            try { name = d.GetItemName(true); } catch { name = "?"; }
+            try { desc = d.GetItemDescription(null).Replace('\n', ' ').Replace('\t', ' '); } catch { desc = "?"; }
+            string expr = d.show_q_hint == null ? "<null>" : d.show_q_hint.GetRawExpressionString();
+            sb.Append(d.id).Append('\t').Append(name).Append('\t').Append(d.type).Append('\t').Append(d.q_plus).Append('\t').Append(d.q_minus)
+              .Append('\t').Append(d.q_hint).Append('\t').Append(expr).Append('\t').Append(d.quality_type).Append('\t').Append(desc).AppendLine();
+        }
+        File.WriteAllText(Path.Combine(Paths.BepInExRootPath, "gyk_organs_dump.tsv"), sb.ToString());
+        Logger.LogMessage("organs dumped");
+    }
+}

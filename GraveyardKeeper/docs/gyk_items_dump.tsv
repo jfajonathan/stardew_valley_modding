@@ -1,0 +1,1158 @@
+id	name	stack_count	type	item_size	has_durability	is_bag	bag_type	in_bags	q_plus	q_minus	dur_craft	not_used
+unknown	Desconhecido	1	None	1	False	False	None		0	0	False	True
+torch	Tocha	1	Torch	1	False	False	None		0	0	False	True
+hand_tool	Ponteiros	1	Hand	2	False	False	None		0	0	False	True
+candle	Vela	1	None	1	False	False	None		0	0	False	False
+skull_candle	Vela na caveira	1	None	1	False	False	None		0	0	False	False
+priest_cloth	Vestes litúrgicas	1	None	1	False	False	None		0	0	False	False
+toilet_paper	Papel higiênico	1	None	1	False	False	None		0	0	False	True
+barrel	Barril	1	None	1	False	False	None		0	0	False	True
+barrel2	Barril II	1	None	1	False	False	None		0	0	False	True
+grave_place	Túmulo vazio	10	Item	1	False	False	None		0	0	False	True
+sandwich	Sanduíche	10	None	1	False	False	None		0	0	False	True
+bob_hat	bob_hat	1	None	1	False	False	None		0	0	False	True
+freshener	Purificador de ar	10	None	1	False	False	None		0	0	False	False
+soap_pinc	Sabão rosa	5	None	1	False	False	None		0	0	False	False
+aromatizer	Aromatizador	10	None	1	False	False	None		0	0	False	False
+parfum_1	Perfume	5	None	1	False	False	None		0	0	False	False
+thread_1	Fio	1	None	1	False	False	None		0	0	False	True
+key_cmmn_1	Chave de metal	1	None	1	False	False	None		0	0	False	True
+key_cmmn_3	Chave de metal	1	None	1	False	False	None		0	0	False	True
+key_gold_1	Chave de ouro	1	None	1	False	False	None		0	0	False	True
+key_gold_2	Chave de ouro	1	None	1	False	False	None		0	0	False	True
+key_gold_3	Chave de ouro	1	None	1	False	False	None		0	0	False	True
+key_silv_1	Chave de prata	1	None	1	False	False	None		0	0	False	True
+key_silv_2	Chave de prata	1	None	1	False	False	None		0	0	False	True
+key_silv_3	Chave de prata	1	None	1	False	False	None		0	0	False	True
+communion_cookies	Hóstia	99	None	1	False	False	None		0	0	False	True
+fire	fire	99999	None	1	False	False	None		0	0	False	True
+science	Ciência	99999	None	1	False	False	None		0	0	False	True
+marketing_point	Fama	99999	None	1	False	False	None		0	0	False	False
+working_zombie_pseudoitem_1	working_zombie_pseudoitem_1	1	Body	2	False	False	None		0	0	False	True
+working_zombie_on_ground_1	working_zombie_on_ground_1	1	None	2	False	False	None		0	0	False	True
+worker_invisible_overhead	worker_invisible_overhead	1	None	2	False	False	None		0	0	False	True
+worker_invisible_ground	worker_invisible_ground	1	None	2	False	False	None		0	0	False	True
+porter_backpack	porter_backpack	1	None	1	False	False	None		0	0	False	True
+bartender_doll	Boneco barman	1	None	2	False	False	None		0	0	False	False
+tavern_reputation_item	Estrela de reputação	3	None	1	False	False	None		0	0	False	False
+insertion_button_pseudoitem	Inserir	1	PseudoitemLast	1	False	False	None		0	0	False	True
+blessing_commerce	Bênção do comércio	5	None	1	False	False	None		0	0	False	False
+bs_letter	Carta ao ferreiro	1	None	1	False	False	None	Universal	0	0	False	True
+scroll_garden_prop	Alvará do jardim	1	None	1	False	False	None	Universal	0	0	False	True
+scroll_graveyard_prop	Pergaminho de cemitério	1	None	1	False	False	None	Universal	0	0	False	True
+town_pass	Ingresso para o povoado	1	None	1	False	False	None	Universal	0	0	False	True
+stamp	Carimbo	1	None	1	False	False	None	Universal	0	0	False	False
+quest_key_astrologer	Chave do coveiro	1	None	1	False	False	None	Universal	0	0	False	True
+quest_instruction_snake	Instruções para a chave	1	None	1	False	False	None	Universal	0	0	False	False
+quest_fake_coins	Moedas falsas	10	None	1	False	False	None	Universal	0	0	False	True
+ques_key_cultist	Chave ativa	1	None	1	False	False	None	Universal	0	0	False	False
+bishop_license	Melhorar licença	1	None	1	False	False	None	Universal	0	0	False	True
+merchant_traide_license	Alvará de funcionamento	1	None	1	False	False	None	Universal	0	0	False	True
+quest_cultit_book	Diário do coveiro	1	None	1	False	False	None	Universal	0	0	False	True
+hiccup_grass	Capim-soluço	50	None	1	False	False	None	Universal	0	0	False	False
+necklace	Colar	1	None	1	False	False	None	Universal	0	0	False	False
+necronomicon	Necronomicon	1	None	1	False	False	None	Universal	0	0	False	True
+restoration_instrument	Ferramentas de restauração	1	None	1	False	False	None	Universal	0	0	False	True
+aristocrat_paper	Documentos de aristocrata	1	None	1	False	False	None	Universal	0	0	False	True
+alice_paper	Documentos da Alisa	1	None	1	False	False	None	Universal	0	0	False	True
+actors_song	Letra da canção	1	None	1	False	False	None	Universal	0	0	False	True
+calculation_for_mill_fix	Papel com cálculos	1	None	1	False	False	None	Universal	0	0	False	False
+infusion	Infusão	10	None	1	False	False	None	Universal	0	0	False	False
+mirror_of_pride	Espelho do orgulho	1	None	1	False	False	None	Universal	0	0	False	False
+fork_salty	Garfo salgado	1	None	1	False	False	None	Universal	0	0	False	False
+eternal_burning_coil	Carvão que queima para sempre	1	None	1	False	False	None	Universal	0	0	False	False
+sextant	Ângulo de ouro	1	None	1	False	False	None	Universal	0	0	False	False
+endless_book	Caderno infinito	1	None	1	False	False	None	Universal	0	0	False	False
+hunters_medallion	Medalhão de caçador	1	None	1	False	False	None	Universal	0	0	False	False
+golden_apple	Maçã Dourada	20	None	1	False	False	None	Universal	0	0	False	False
+accepted_invitation	Convite autorizado	1	None	1	False	False	None	Universal	0	0	False	True
+picnic_basket	Cesta de comida	1	None	1	False	False	None	Universal	0	0	False	True
+huge_carrot	huge_carrot	1	None	2	False	False	None		0	0	False	True
+millers_invitation	Convite para o <show de comédia>	1	None	1	False	False	None	Universal	0	0	False	True
+dagger_baron	Punhal raro	1	None	1	False	False	None	Universal	0	0	False	True
+honey_plaster	Emplastro de mel	1	None	1	False	False	None	Universal	0	0	False	True
+honey_barrel	Um barril de mel	1	None	1	False	False	None	Universal	0	0	False	True
+curtain_blue	Cortina	5	None	1	False	False	None	Universal	0	0	False	False
+roof_tile	Telha	24	None	1	False	False	None	Universal	0	0	False	False
+obsidian_research	Pesquisar obsidiana	1	None	1	False	False	None	Universal	0	0	False	False
+scroll_for_hunchback	Um pergaminho com um feitiço	1	None	1	False	False	None	Universal	0	0	False	True
+pie_with_poison	Bolo com veneno de abelha	1	None	1	False	False	None	Universal	0	0	False	True
+vases_with_poison	Vasos de veneno	1	None	1	False	False	None	Universal	0	0	False	True
+rat_for_dig	Rato	1	None	1	False	False	None	Universal	0	0	False	True
+rand_alchemy_unlock	Receita de alquimia	10	None	1	False	False	None	Universal	0	0	False	True
+rat:rat_in_jar_0	Rato comum	1	Rat	1	False	False	None		0	0	False	True
+rat:rat_in_jar_1	Mickey, o rato	1	Rat	1	False	False	None		0	0	False	True
+rat:rat_in_jar_2	Django, o rato	1	Rat	1	False	False	None		0	0	False	True
+rat:rat_in_jar_3	Pecos, o rato	1	Rat	1	False	False	None		0	0	False	True
+rat:rat_in_jar_4	Remy, o rato	1	Rat	1	False	False	None		0	0	False	True
+rat:rat_in_jar_5	Splinter	1	Rat	1	False	False	None		0	0	False	True
+rat_status:satisfied	Saciado	1	RatBuff	1	True	False	None		0	0	False	False
+rat_status:normal	Normal	1	RatBuff	1	True	False	None		0	0	False	False
+rat_status:hungry	Com fome	1	RatBuff	1	True	False	None		0	0	False	True
+rat_status:very_hungry	Com muita fome	1	RatBuff	1	True	False	None		0	0	False	True
+rat_status:critically_hungry	Morrendo de fome	1	RatBuff	1	True	False	None		0	0	False	True
+rat_buff:speed_training_1	Treinamento de velocidade I	1	RatBuff	1	False	False	None		0	0	False	False
+rat_buff:speed_training_2	Treinamento de velocidade II	1	RatBuff	1	False	False	None		0	0	False	False
+rat_buff:speed_training_3	Treinamento de velocidade III	1	RatBuff	1	False	False	None		0	0	False	False
+rat_buff:dog_training_1	Treinamento canino I	1	RatBuff	1	False	False	None		0	0	False	False
+rat_buff:dog_training_2	Treinamento canino II	1	RatBuff	1	False	False	None		0	0	False	False
+rat_buff:dog_training_3	Treinamento canino III	1	RatBuff	1	False	False	None		0	0	False	False
+rat_buff:fast	rat_buff:fast	1	RatBuff	1	False	False	None		0	0	False	True
+rat_buff:obedient	rat_buff:obedient	1	RatBuff	1	False	False	None		0	0	False	True
+tr_red_eye	Estatueta do Deus Antigo	1	None	1	False	False	None	Universal	0	0	False	False
+tr_flask	Cantil de vinho antigo	1	None	1	False	False	None	Universal	0	0	False	False
+tr_door_hinge	Dobradiça antiga	1	None	1	False	False	None	Universal	0	0	False	False
+tr_helmet	Elmo de legionário	1	None	1	False	False	None	Universal	0	0	False	False
+tr_picklock	Gázua antiga	1	None	1	False	False	None	Universal	0	0	False	False
+tr_medallion	Medalhão do padre	1	None	1	False	False	None	Universal	0	0	False	False
+tr_dagger	Punhal de legionário	1	None	1	False	False	None	Universal	0	0	False	False
+tr_buckle	Fivela antiga	1	None	1	False	False	None	Universal	0	0	False	False
+tr_clay_shards	Cacos de barro de um vaso antigo	1	None	1	False	False	None	Universal	0	0	False	False
+tr_red_eye_amulet	Amuleto do Deus Antigo	1	None	1	False	False	None	Universal	0	0	False	False
+tr_handcuff	Algemas antigas	1	None	1	False	False	None	Universal	0	0	False	False
+tr_pickaxe	Picareta antiga	1	None	1	False	False	None	Universal	0	0	False	False
+tr_key	Chaves antigas da cela da prisão	1	None	1	False	False	None	Universal	0	0	False	False
+tr_resin_pot	Pote de barro com piche	1	None	1	False	False	None	Universal	0	0	False	False
+tr_bellas_ring	Anel da sacerdotisa	1	BodyUniversalPart	1	False	False	None	Universal	0	0	False	False
+tr_signet	Sinete do padre	1	None	1	False	False	None	Universal	0	0	False	False
+tr_brick	Tijolo da Igreja	1	None	1	False	False	None	Universal	0	0	False	False
+candle_1	Vela	30	None	1	False	False	None	Universal	0	0	False	False
+candle_2	Vela	30	None	1	False	False	None	Universal	0	0	False	False
+candle_3	Vela	30	None	1	False	False	None	Universal	0	0	False	False
+candle_4	Vela	30	None	1	False	False	None	Universal	0	0	False	False
+candle_6	Vela	30	None	1	False	False	None	Universal	0	0	False	False
+incense_1	Incenso	30	None	1	False	False	None	Universal	0	0	False	False
+incense_2	Incenso II	30	None	1	False	False	None	Universal	0	0	False	False
+silk	Seda	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+faith	Fé	100000	None	1	False	False	None	Universal	0	0	False	False
+fruit:berry	Frutinha	30	None	1	False	False	None	Universal,Food	0	0	False	False
+fruit:apple_green_crop	Maçã verde	30	None	1	False	False	None	Universal,Food	0	0	False	False
+fruit:apple_red_crop	Maçã vermelha	30	None	1	False	False	None	Universal,Food	0	0	False	False
+honey	Mel	30	None	1	False	False	None	Universal,Food	0	0	False	False
+beeswax	Cera de abelha	30	None	1	False	False	None	Universal	0	0	False	False
+ash	Ash	100	None	1	False	False	None	Universal	0	0	False	False
+shr_agaric	Cogumelo vermelho	30	None	1	False	False	None	Universal,Food	0	0	False	False
+shr_boletus	Cogumelo comestível	30	None	1	False	False	None	Universal,Food	0	0	False	False
+wheat_seed	Semente de trigo	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+wheat_crop	Trigo	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+cabbage_seed	Semente de repolho	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+cabbage_crop	Couve	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+carrot_seed	Semente de cenoura	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+carrot_crop	Cenoura	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+beet_seed	Semente de beterraba	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+beet_crop	Beterraba	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+onion_seed:1	Semente de cebola	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+onion_seed:2	Semente de cebola	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+onion_seed:3	Semente de cebola	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+onion_crop:1	Cebola	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+onion_crop:2	Cebola	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+onion_crop:3	Cebola	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+lentils_seed:1	Semente de lentilha	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+lentils_seed:2	Semente de lentilha	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+lentils_seed:3	Semente de lentilha	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+lentils_crop:1	Lentilha	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+lentils_crop:2	Lentilha	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+lentils_crop:3	Lentilha	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+pumpkin_seed:1	Semente de abóbora	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+pumpkin_seed:2	Semente de abóbora	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+pumpkin_seed:3	Semente de abóbora	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+pumpkin_crop:1	Abóbora	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+pumpkin_crop:2	Abóbora	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+pumpkin_crop:3	Abóbora	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+hop_seed:1	Semente de lúpulo	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+hop_seed:2	Semente de lúpulo	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+hop_seed:3	Semente de lúpulo	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+hop_crop:1	Lúpulo	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+hop_crop:2	Lúpulo	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+hop_crop:3	Lúpulo	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+hamp_seed:1	Semente de cânhamo	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+hamp_seed:2	Semente de cânhamo	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+hamp_seed:3	Semente de cânhamo	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+hamp_crop:1	Cânhamo	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+hamp_crop:2	Cânhamo	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+hamp_crop:3	Cânhamo	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+grapes_seed:1	Semente de uva	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+grapes_seed:2	Semente de uva	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+grapes_seed:3	Semente de uva	50	None	1	False	False	None	Universal,Farming	0	0	False	False
+fruit:grapes_crop:1	Uvas	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+fruit:grapes_crop:2	Uva	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+fruit:grapes_crop:3	Uvas	50	None	1	False	False	None	Universal,Farming,Food	0	0	False	False
+pail_blood	Balde de sangue	1	None	1	False	False	None	Universal	0	0	False	False
+pail_wet_paper	Mistureba de papel	10	None	1	False	False	None	Universal	0	0	False	False
+rope_hemp	Corda de cânhamo	30	None	1	False	False	None	Universal	0	0	False	False
+sack_clear	Fertilizante	1	None	1	False	False	None	Universal,Farming	0	0	False	True
+energy_elixir	Elixir de energia	10	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+sack_clock_gold	Reforço de fertilizante II	100	None	1	False	False	None	Universal,Farming	0	0	False	False
+sack_clock_silver	Reforço de fertilizante I	100	None	1	False	False	None	Universal,Farming	0	0	False	False
+growth_enhancer	Intensificador de crescimento	10	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+sack_star_silver	Fertilizante de qualidade I	100	None	1	False	False	None	Universal,Farming	0	0	False	False
+flavor_enhancer	Intensificador de sabor	10	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+sack_star_gold	Fertilizante de qualidade II	100	None	1	False	False	None	Universal,Farming	0	0	False	False
+peat	Turfa	100	None	1	False	False	None	Universal,Farming	0	0	False	False
+crop_waste	Resíduos de colheita	100	None	1	False	False	None	Universal,Farming	0	0	False	False
+seedling_bush_berry	Mudas de frutinha	10	None	1	False	False	None	Universal,Farming	0	0	False	False
+seedling_tree_apple	Mudas de macieira	10	None	1	False	False	None	Universal,Farming	0	0	False	False
+shr_truffle	Trufa	10	None	1	False	False	None		0	0	False	True
+seed_oil	Óleo de semente	10	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+box_vegetables_silver	Caixa de verduras e hortaliças	1	Crate	2	False	False	None		0	0	False	False
+box_vegetables_gold	Caixa de verduras e hortaliças	1	Crate	2	False	False	None		0	0	False	False
+box_goods	Baú de mercadorias	1	Crate	2	False	False	None		0	0	False	False
+box_beer_1	Caixa de cerveja bronze	1	Crate	2	False	False	None		0	0	False	False
+box_beer_2	Caixa de cerveja prata	1	Crate	2	False	False	None		0	0	False	False
+box_beer_3	Caixa de cerveja ouro	1	Crate	2	False	False	None		0	0	False	False
+box_foodstuff_1	Caixa de víveres 1	1	Crate	2	False	False	None		0	0	False	False
+box_foodstuff_2	Caixa de víveres 2	1	Crate	2	False	False	None		0	0	False	False
+box_foodstuff_3	Caixa de víveres 3	1	Crate	2	False	False	None		0	0	False	False
+box_mead_1	Caixa de hidromel bronze	1	Crate	2	False	False	None		0	0	False	False
+box_mead_2	Caixa de hidromel prata	1	Crate	2	False	False	None		0	0	False	False
+box_mead_3	Caixa de hidromel ouro	1	Crate	2	False	False	None		0	0	False	False
+box_booz	Caixa de álcool forte	1	Crate	2	False	False	None		0	0	False	False
+box_wine_1	Caixa de vinho bronze	1	Crate	2	False	False	None		0	0	False	False
+box_wine_2	Caixa de vinho prata	1	Crate	2	False	False	None		0	0	False	False
+box_wine_3	Caixa de vinho ouro	1	Crate	2	False	False	None		0	0	False	False
+foodstuff_1	Víveres 1	20	None	1	False	False	None	Universal,Food	0	0	False	False
+foodstuff_2	Víveres 2	20	None	1	False	False	None	Universal,Food	0	0	False	False
+foodstuff_3	Víveres 3	20	None	1	False	False	None	Universal,Food	0	0	False	False
+tavern_food_1	Comida de taberna 1	20	None	1	False	False	None	Universal,Food	0	0	False	False
+tavern_food_2	Comida de taberna 2	20	None	1	False	False	None	Universal,Food	0	0	False	False
+tavern_food_3	Comida de taberna 3	20	None	1	False	False	None	Universal,Food	0	0	False	False
+bat_wing	Asa de morcego	30	None	1	False	False	None	Universal	0	0	False	False
+jelly_slug	Geleia verde	30	None	1	False	False	None	Universal	0	0	False	False
+jelly_slug_blue	Gelatina verde	30	None	1	False	False	None	Universal	0	0	False	False
+jelly_slug_orange	Gelatina laranja	30	None	1	False	False	None	Universal	0	0	False	False
+jelly_slug_black	Geleia preta	30	None	1	False	False	None	Universal	0	0	False	False
+bee	Abelha	30	None	1	False	False	None	Universal	0	0	False	False
+skin_pig	Couro de porco	30	None	1	False	False	None	Universal	0	0	False	False
+slime	Meleca	30	None	1	False	False	None	Universal	0	0	False	True
+spider_web	Teia de aranha	30	None	1	False	False	None	Universal	0	0	False	False
+ore_metal	Minério de ferro	1	None	2	False	False	None		0	0	False	False
+detail_trash	Sucata de metal	99	None	1	False	False	None	Universal,Builder	0	0	False	False
+1h_ore_metal	Minério de ferro	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+ingot_metal	Lingote de ferro	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+nails	Pregos	100	None	1	False	False	None	Universal,Builder	0	0	False	False
+nails_bloody	Pregos sangrentos	100	None	1	False	False	None	Universal	0	0	False	False
+detail_1	Peças simples de ferro	50	None	1	False	False	None	Universal,Builder	0	0	False	False
+detail_2	Peças de ferro complexas	50	None	1	False	False	None	Universal,Builder	0	0	False	False
+whetstone	Pedra de amolar	1	None	1	True	False	None	Universal,Builder	0	0	True	False
+2h_ore_silver	Minério de prata	1	None	2	False	False	None		0	0	False	True
+powder_gold	Pó de ouro	30	None	1	False	False	None	Universal,Alchemy,Builder	0	0	False	False
+powder_silver	Pó de prata	30	None	1	False	False	None	Universal,Alchemy,Builder	0	0	False	False
+powder_white	Pó branco	30	None	1	False	False	None	Universal,Alchemy,Builder	0	0	False	False
+powder_graphite	Pó de grafite	30	None	1	False	False	None	Universal,Alchemy,Builder	0	0	False	False
+nugget_silver	Pepita de prata	10	None	1	False	False	None	Universal,Builder	0	0	False	False
+nugget_gold	Pepita de ouro	10	None	1	False	False	None	Universal,Builder	0	0	False	False
+ingot_steel	Lingote de aço	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+ingot_silver	Lingote de prata	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+ingot_gold	Lingote de ouro	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+detail_3	Peças de aço	50	None	1	False	False	None	Universal,Builder	0	0	False	False
+pail_water	Balde de água limpa	5	None	1	False	False	None	Universal,Builder,Food	0	0	False	False
+graphite	Grafite	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+glass_broken	Vidro quebrado	30	None	1	False	False	None		0	0	False	False
+glass_0	Vidro	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+glass_1	Frascos cônicos	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+glass_2	Frascos cônicos avançados	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+sand_river	Areia do rio	50	None	1	False	False	None	Universal,Builder	0	0	False	False
+chisel:chisel_1	Cinzel de ferro	1	None	1	True	False	None	Universal,Builder	0	0	True	False
+chisel:chisel_2:1	Cinzel de aço	1	None	1	True	False	None	Universal,Builder	0	0	False	False
+chisel:chisel_2:2	Cinzel	1	None	1	True	False	None	Universal,Builder	0	0	False	False
+chisel:chisel_2:3	Cinzel	1	None	1	True	False	None	Universal,Builder	0	0	False	False
+jewelry_detail_gold	Detalhes de joias de ouro	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+bijouterie_gold	Joias	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+jewelry_detail_silver	Detalhes de joias de prata	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+lense	Lente	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+axe_0	Machado enferrujado	1	Axe	1	True	False	None	Universal,Tools	0	0	False	False
+axe_1	Machado I	1	Axe	1	True	False	None	Universal,Tools	0	0	False	False
+axe_2	Machado II	1	Axe	1	True	False	None	Universal,Tools	0	0	False	False
+pickaxe_0	Picareta enferrujada	1	Pickaxe	1	True	False	None	Universal,Tools	0	0	False	False
+pickaxe_1	Picareta I	1	Pickaxe	1	True	False	None	Universal,Tools	0	0	False	False
+pickaxe_2	Picareta II	1	Pickaxe	1	True	False	None	Universal,Tools	0	0	False	False
+ice_axe	Machado de gelo	1	Pickaxe	1	False	False	None	Universal,Tools	0	0	False	True
+shovel_0	Pá enferrujada	1	Shovel	1	True	False	None	Universal,Tools	0	0	False	False
+shovel_1	Pá I	1	Shovel	1	True	False	None	Universal,Tools	0	0	False	False
+shovel_2	Pá II	1	Shovel	1	True	False	None	Universal,Tools	0	0	False	False
+broken_sword	Espada quebrada	1	Sword	1	True	False	None	Universal,Tools	0	0	False	False
+sword_0	Espada enferrujada	1	Sword	1	True	False	None	Universal,Tools	0	0	False	False
+sword_1	Espada	1	Sword	1	True	False	None	Universal,Tools	0	0	False	False
+sword_damask	Espada damascena	1	Sword	1	True	False	None	Universal,Tools	0	0	False	True
+sword_damask_gem	Espada damascena com pedra preciosa	1	Sword	1	True	False	None	Universal,Tools	0	0	False	False
+sword_metal	Espada de metal	1	Sword	1	True	False	None	Universal,Tools	0	0	False	True
+sword_metal_gem	Espada de metal com pedra preciosa	1	Sword	1	True	False	None	Universal,Tools	0	0	False	True
+sword_steel	Espada de aço	1	Sword	1	True	False	None	Universal,Tools	0	0	False	False
+sword_steel_gem	Espada de aço com pedra preciosa	1	Sword	1	True	False	None	Universal,Tools	0	0	False	False
+hammer_0	Martelo enferrujado	1	Hammer	1	True	False	None	Universal,Tools	0	0	False	False
+hammer_2	Martelo de ferro	1	Hammer	1	True	False	None	Universal,Tools	0	0	False	False
+armor_lamellar_1	Armadura de ferro	1	BodyArmor	1	True	False	None	Universal,Tools	0	0	False	False
+armor_lamellar_2	Armadura de aço	1	BodyArmor	1	True	False	None	Universal,Tools	0	0	False	False
+fishing_rod_0	Vara de pesca simples	1	FishingRod	1	True	False	None	Universal,Fishing	0	0	False	True
+fishing_rod_1	Vara de pesca boa	1	FishingRod	1	True	False	None	Universal,Fishing	0	0	False	True
+fishing_rod_2	Vara de pesca ótima	1	FishingRod	1	True	False	None	Universal,Fishing	0	0	False	True
+fish_frog_green	Sapo	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_gudgeon	Gróbio	10	Bait	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_anchovy	Anchova	10	Bait	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_tilapia	Tilápia	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_perch	Poleiro	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_eel	Enguia	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_bream:1	Brema	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_bream:2	Brema	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_sardine:1	Sardinha	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_sardine:2	Sardinha	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_tuna:1	Atum	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_tuna:2	Atum	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_pike:1	Pique	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_pike:2	Pique	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_crucian_silver:1	Prussiano prateado	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_crucian_silver:2	Prussiano prateado	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_salmon:2	Salmão	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_salmon:3	Salmão	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_sturgeon:2	Esturjão	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_sturgeon:3	Esturjão	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_carp	Carpa	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_crucian_gold	Prussiano dourado	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+fish_goldfish	Peixinho-dourado	10	None	1	False	False	None	Universal,Fishing	0	0	False	False
+bait_gold	Isca de ouro	1	None	1	True	False	None	Universal,Fishing	0	0	False	True
+bait_gem	Atrair com uma pedra preciosa	1	Bait	1	True	False	None	Universal,Fishing	0	0	False	True
+bait_steel	Isca de aço	1	Bait	1	True	False	None	Universal,Fishing	0	0	False	True
+wood	Tora	1	None	2	False	False	None		0	0	False	False
+wood1	Pedaço de madeira	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+flitch	Tábua	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+stick	Vareta de madeira	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+wooden_plank	Placa de madeira	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+firewood	Lenha	50	None	1	False	False	None	Universal,Builder	0	0	False	False
+spike_1	Cunha de madeira	50	None	1	False	False	None	Universal,Builder	0	0	False	False
+wood_balk_1	Viga de madeira	10	None	1	False	False	None	Universal,Builder	0	0	False	False
+carved_wood:1	Madeira entalhada	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+carved_wood:2	Madeira entalhada	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+carved_wood:3	Madeira entalhada	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+wchips	Lascas de madeira	1	None	1	False	False	None	Universal,Builder	0	0	False	True
+wood_constr_1	Vigamento	10	None	1	False	False	None	Universal,Builder	0	0	False	False
+wood_magic_1	Prancha de madeira mágica	1	None	1	False	False	None	Universal,Builder	0	0	False	False
+owl_wood	Coruja de madeira	1	None	1	False	False	None	Universal,Builder	0	0	False	True
+repair_wdn	Kit de conserto de madeira	10	None	1	False	False	None	Universal,Builder	0	0	False	False
+stone	Pedra	1	None	2	False	False	None		0	0	False	False
+1h_stone		1	None	1	False	False	None	Universal,Builder	0	0	False	True
+stone_plate_1	Pedaço de pedra	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+stone_plate_2	Tijolo polido de pedra	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+stone_plate_3	Pedaço de pedra esculpida	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+water	Água	50	None	1	False	False	None	Universal,Alchemy,Builder,Food	0	0	False	False
+sulfur	Enxofre	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+clay	Argila	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+coal	Carvão	100	None	1	False	False	None	Universal,Builder	0	0	False	False
+pyrite	Pirita	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+lifestone	Calcário	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+marble	Mármore	1	None	2	False	False	None	Universal,Builder	0	0	False	False
+1h_marble		1	None	1	False	False	None	Universal,Builder	0	0	False	True
+marble_plate_1	Pedaço de mármore	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+marble_plate_2	Tijolo polido de mármore	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+marble_plate_3:1	Pedaço de mármore entalhado	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+marble_plate_3:2	Pedaço de mármore entalhado	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+marble_plate_3:3	Pedaço de mármore entalhado	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+marble_gold	Espiritita	1	None	2	False	False	None	Universal,Builder	0	0	False	True
+1h_marble_gold		1	None	1	False	False	None	Universal,Builder	0	0	False	True
+marble_gold_plate_1	Pedaço de espiritita	1	None	1	False	False	None	Universal,Builder	0	0	False	True
+marble_gold_plate_2	Um tijolo polido de espiritita	1	None	1	False	False	None	Universal,Builder	0	0	False	True
+marble_gold_plate_3	Pedra	1	None	1	False	False	None	Universal,Builder	0	0	False	True
+obsidian	Silencita	1	None	2	False	False	None	Universal,Builder	0	0	False	True
+1h_obsidian	Obsidiana	1	None	1	False	False	None	Universal,Builder	0	0	False	True
+obsidian_plate_1	Pedaço de silencita	1	None	1	False	False	None	Universal,Builder	0	0	False	True
+obsidian_plate_2	Tijolo polido de silencita	1	None	1	False	False	None	Universal,Builder	0	0	False	True
+obsidian_plate_3	Pedaço esculpido de silencita	1	None	1	False	False	None	Universal,Builder	0	0	False	True
+ceramic_1	Potes de cerâmica	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+ceramic_2	Jarro de cerâmica	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+ceramic_3	Jarra de porcelana	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+funeral_urn_1	Urna funerária de cerâmica	30	None	1	False	False	None	Universal	0	0	False	False
+funeral_urn_2	Urna funerária de porcelana	30	None	1	False	False	None	Universal	0	0	False	False
+jug_empty	Jarra vazia	1	None	1	False	False	None	Universal	0	0	False	True
+bust_marble	Busto de mármore	1	None	1	False	False	None	Universal,Builder	0	0	False	True
+spike_2	Cunha de ferro	1	None	1	False	False	None	Universal,Builder	0	0	False	True
+faceted_diamond	Diamante lapidado	10	None	1	False	False	None	Universal,Builder	0	0	False	False
+faceted_emerald	Esmeralda lapidada	1	None	1	False	False	None	Universal,Builder	0	0	False	False
+repair_stn	Kit de conserto de pedra	10	None	1	False	False	None	Universal,Builder	0	0	False	False
+repair_mrb	Kit de conserto de mármore	10	None	1	False	False	None	Universal,Builder	0	0	False	False
+polishing_paste	Pasta de polimento	30	None	1	False	False	None	Universal,Builder	0	0	False	False
+packet_meat	Pacote de carne	10	None	1	False	False	None	Universal,Food	0	0	False	False
+raw_meat_sliced	Carne crua fatiada	30	None	1	False	False	None	Universal,Food	0	0	False	False
+fillet_fish_white	Filé de peixe branco	30	None	1	False	False	None	Universal,Food	0	0	False	False
+fillet_fish:fillet_fish_red:1	Qualidade do filé de peixe	30	None	1	False	False	None	Universal,Food	0	0	False	False
+fillet_fish:fillet_fish_red:2	Qualidade do filé de peixe	30	None	1	False	False	None	Universal,Food	0	0	False	False
+fillet_fish:fillet_fish_red:3	Qualidade do filé de peixe	30	None	1	False	False	None	Universal,Food	0	0	False	False
+fillet_fish:fillet_fish_blue:1	Filé de peixe azul	30	None	1	False	False	None	Universal,Food	0	0	False	False
+fillet_fish:fillet_fish_blue:2	Filé de peixe azul	30	None	1	False	False	None	Universal,Food	0	0	False	False
+fillet_fish:fillet_fish_blue:3	Filé de peixe azul	30	None	1	False	False	None	Universal,Food	0	0	False	False
+egg_chicken	Ovo de galinha	30	None	1	False	False	None	Universal,Food	0	0	False	False
+taste_booster:salt	Sal	30	None	1	False	False	None	Universal,Alchemy,Food	0	0	False	False
+dough	Massa	30	None	1	False	False	None	Universal,Food	0	0	False	False
+dough_2	Massa folhada	30	None	1	False	False	None	Universal,Food	0	0	False	False
+potion_berries_juice	Suco de frutinhas	10	None	1	False	False	None	Universal,Food	0	0	False	False
+jug_milk	Jarra de leite	10	None	1	False	False	None	Universal,Food	0	0	False	False
+butter	Manteiga	10	None	1	False	False	None	Universal,Food	0	0	False	False
+cheese	Queijo	10	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:fried_egg	Ovo frito	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:bread	Pão	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:onion_ring:1	Anéis de cebola	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:onion_ring:2	Anéis de cebola	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:onion_ring:3	Anéis de cebola	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:baked_apple	Maçã assada	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:bowl_sauerkraut	Pote de chucrute	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:baked_kebab_7	Cogumelos assados	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:pancakes	Panquecas	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:sandwich	Sanduíche	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:toasts:1	Torradas com cebola	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:toasts:2	Torradas com cebola	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:toasts:3	Torradas com cebola	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:omlette	Omelete	25	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:nuggets_fish	Nuggets de peixe	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:cutlet_carrot	Escalope com cenouras	25	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:bowl_lentil:1	Pote de lentilhas	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:bowl_lentil:2	Pote de lentilhas	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:bowl_lentil:3	Pote de lentilhas	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:bowl_pumpkin:1	Pote de sopa de abóbora	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:bowl_pumpkin:2	Pote de sopa de abóbora	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:bowl_pumpkin:3	Pote de sopa de abóbora	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_fish	Peixe assado	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_salmon:1	Salmão assado	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_salmon:2	Salmão assado	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_salmon:3	Salmão assado	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:honey_fish:1	Peixe-anjo-real	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:honey_fish:2	Peixe-anjo-real	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:honey_fish:3	Peixe-anjo-real	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:soup_fish	Sopa de peixe	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_kebab_1:1	Kebab assado	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_kebab_1:2	Kebab assado	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_kebab_1:3	Kebab assado	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_kebab_2:1	Kebab assado	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_kebab_2:2	Kebab assado	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_kebab_2:3	Kebab assado	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_kebab_5:1	Kebab assado	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_kebab_5:2	Kebab assado	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_kebab_5:3	Kebab assado	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_meat	Carne cozida	25	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_pumpkin:1	Abóbora assada	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_pumpkin:2	Abóbora assada	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:baked_pumpkin:3	Abóbora assada	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:burger:1	Hambúrguer	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:burger:2	Hambúrguer	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:burger:3	Hambúrguer	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:lasagne:1	Lasanha	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:lasagne:2	Lasanha	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:lasagne:3	Lasanha	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:pasta	Massa	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:soup_red_green:1	Sopa de repolho	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:soup_red_green:2	Sopa de repolho	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:soup_red_green:3	Sopa de repolho	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:soup_red_yellow:1	Sopa de abóbora	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:soup_red_yellow:2	Sopa de abóbora	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:soup_red_yellow:3	Sopa de abóbora	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:soup_yellow_green:1	Sopa de vegetais	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:soup_yellow_green:2	Sopa de vegetais	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:soup_yellow_green:3	Sopa de vegetais	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:beet_slice	Fatias de beterraba	20	None	1	False	False	None	Universal,Food	0	0	False	False
+dessert:jelly_green	Geleia verde	20	None	1	False	False	None	Universal,Food	0	0	False	False
+dessert:jelly_red	Gelatina vermelha	20	None	1	False	False	None	Universal,Food	0	0	False	False
+dessert:muffin	Bolinho	20	None	1	False	False	None	Universal,Food	0	0	False	False
+dessert:croissant	Croissant	20	None	1	False	False	None	Universal,Food	0	0	False	False
+dessert:pie	Bolo	20	None	1	False	False	None	Universal,Food	0	0	False	False
+dessert:pie_1	Torta de frutinha	20	None	1	False	False	None	Universal,Food	0	0	False	False
+dessert:pie_2:1	Torta de uva	20	None	1	False	False	None	Universal,Food	0	0	False	False
+dessert:pie_2:2	Torta de uva	20	None	1	False	False	None	Universal,Food	0	0	False	False
+dessert:pie_2:3	Torta de uva	20	None	1	False	False	None	Universal,Food	0	0	False	False
+dinner:1	Jantar	10	None	1	False	False	None	Universal,Food	0	0	False	False
+dinner:2	Jantar	10	None	1	False	False	None	Universal,Food	0	0	False	False
+dinner:3	Jantar	10	None	1	False	False	None	Universal,Food	0	0	False	False
+baked_kebab_3	Kebab assado 3	1	None	1	False	False	None	Universal,Food	0	0	False	True
+baked_kebab_4	Kebab assado 4	1	None	1	False	False	None	Universal,Food	0	0	False	True
+baked_kebab_6	Kebab assado 6	1	None	1	False	False	None	Universal,Food	0	0	False	True
+snack:grated_carrot	Cenoura ralada	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:grated_beetroot	Beterraba ralada	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:boiled_egg	Ovo cozido	40	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:vegetable_salad:1	Salada	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:vegetable_salad:2	Salada	20	None	1	False	False	None	Universal,Food	0	0	False	False
+snack:vegetable_salad:3	Salada	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:cheese_pie	Torta de queijo	15	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:creamy_vegetable_soup:1	Sopa cremosa de vegetais	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:creamy_vegetable_soup:2	Sopa cremosa de vegetais	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:creamy_vegetable_soup:3	Sopa cremosa de vegetais	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:lentil_porridge:1	Mingau de lentilha	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:lentil_porridge:2	Mingau de lentilha	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:lentil_porridge:3	Mingau de lentilha	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:greek_lentil_soup:1	Sopa de lentilhas chique	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:greek_lentil_soup:2	Sopa de lentilhas chique	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:greek_lentil_soup:3	Sopa de lentilhas chique	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:vegetable_patty:1	Enroladinho de vegetais	40	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:vegetable_patty:2	Enroladinho de vegetais	40	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:vegetable_patty:3	Enroladinho de vegetais	40	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:mushroom_patty	Enroladinho de cogumelos	40	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:сheese_patty	Enroladinho de queijo	40	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:vegetable_stew:1	Ensopado de vegetais	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:vegetable_stew:2	Ensopado de vegetais	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:vegetable_stew:3	Ensopado de vegetais	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:cream_of_mushroom_soup	Sopa de creme de cogumelos	20	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:lentil_cutlets:1	Escalopes de lentilha	50	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:lentil_cutlets:2	Escalopes de lentilha	50	None	1	False	False	None	Universal,Food	0	0	False	False
+meal:lentil_cutlets:3	Escalopes de lentilha	50	None	1	False	False	None	Universal,Food	0	0	False	False
+dessert:cheesecake	Cheesecake	20	None	1	False	False	None	Universal,Food	0	0	False	False
+dessert:panna_cotta	Panna cotta	40	None	1	False	False	None	Universal,Food	0	0	False	False
+dessert:honey_pudding	Pudim de mel	30	None	1	False	False	None	Universal,Food	0	0	False	False
+dessert:berry_pudding	Pudim de frutinha	20	None	1	False	False	None	Universal,Food	0	0	False	False
+dessert:honey_cake	Bolo de mel	10	None	1	False	False	None	Universal,Food	0	0	False	False
+recipe_simple_snacks	Receita: acompanhamentos simples	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_vegetable_set	Receita: cesta de vegetais	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_milk_processing	Receita: processamento de leite	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_in_lentil_we_trust	Receita: em lentilha confiamos	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_patties	Receita: enroladinhos	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_cheese_dishes	Receita: pratos de queijo	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_jelly_desserts	Receita: sobremesas de geleia	1	None	1	False	False	None	Universal	0	0	False	True
+pail_apple_juice	Balde de suco de maçã	10	None	1	False	False	None	Universal,Food	0	0	False	False
+bottle_apple_juice	Garrafa de suco de maçã	20	None	1	False	False	None	Universal,Food	0	0	False	True
+bottle_apple_braga	Garrafa de fermento de maçã	20	None	1	False	False	None	Universal,Food	0	0	False	False
+pail_berry_juice	Balde de suco de frutinha	10	None	1	False	False	None	Universal,Food	0	0	False	False
+bottle_berry_juice	Garrafa de suco de frutinha	20	None	1	False	False	None	Universal,Food	0	0	False	True
+bottle_berry_braga	Garrafa de frutinha fermentada	20	None	1	False	False	None	Universal,Food	0	0	False	False
+pail_grape_juice:1	Balde de suco de uvas	10	None	1	False	False	None	Universal,Food	0	0	False	False
+pail_grape_juice:2	Balde de suco de uvas	10	None	1	False	False	None	Universal,Food	0	0	False	False
+pail_grape_juice:3	Balde de suco de uvas	10	None	1	False	False	None	Universal,Food	0	0	False	False
+bottle_grape_juice:1	Garrafa de suco de uva	20	None	1	False	False	None	Universal,Food	0	0	False	True
+bottle_grape_juice:2	Garrafa de suco de uva	20	None	1	False	False	None	Universal,Food	0	0	False	True
+bottle_grape_juice:3	Garrafa de suco de uva	20	None	1	False	False	None	Universal,Food	0	0	False	True
+bottle_red_vine:1	Vinho tinto	20	None	1	False	False	None	Universal,Food	0	0	False	False
+bottle_red_vine:2	Vinho tinto	20	None	1	False	False	None	Universal,Food	0	0	False	False
+bottle_red_vine:3	Vinho tinto	20	None	1	False	False	None	Universal,Food	0	0	False	False
+pail_beer:1	Mosto	10	None	1	False	False	None	Universal,Food	0	0	False	True
+pail_beer:2	Mosto	10	None	1	False	False	None	Universal,Food	0	0	False	True
+pail_beer:3	Mosto	10	None	1	False	False	None	Universal,Food	0	0	False	True
+cup_beer:1	Caneca de cerveja	20	None	1	False	False	None	Universal,Food	0	0	False	False
+cup_beer:2	Caneca de cerveja	20	None	1	False	False	None	Universal,Food	0	0	False	False
+cup_beer:3	Caneca de cerveja	20	None	1	False	False	None	Universal,Food	0	0	False	False
+cup_mead:1	Caneca de cerveja	20	None	1	False	False	None	Universal,Food	0	0	False	False
+cup_mead:2	Caneca de cerveja	20	None	1	False	False	None	Universal,Food	0	0	False	False
+cup_mead:3	Caneca de cerveja	20	None	1	False	False	None	Universal,Food	0	0	False	False
+hop_honey:1	Hidromel	20	None	1	False	False	None	Universal,Food	0	0	False	False
+hop_honey:2	Hidromel	20	None	1	False	False	None	Universal,Food	0	0	False	False
+hop_honey:3	Hidromel	20	None	1	False	False	None	Universal,Food	0	0	False	False
+bottle_booz_xxx	Pinga	20	None	1	False	False	None	Universal,Food	0	0	False	False
+bottle_booz_empty	Garrafa vazia	20	None	1	False	False	None		0	0	False	True
+bottle_empty_1	Garrafa vazia	20	None	1	False	False	None		0	0	False	True
+bottle_empty_2	Garrafa vazia	20	None	1	False	False	None		0	0	False	True
+bowl_empty	Pote vazio	20	None	1	False	False	None		0	0	False	True
+crab	Caranguejo	1	None	1	False	False	None		0	0	False	True
+cup_empty	Copo vazio	20	None	1	False	False	None		0	0	False	True
+food_empty_plate_1	Prato vazio	20	None	1	False	False	None		0	0	False	True
+mussels	Mexilhões	20	None	1	False	False	None		0	0	False	True
+nori	Nori	20	None	1	False	False	None		0	0	False	False
+pail_dirt	Balde de sujeira	1	None	1	False	False	None		0	0	False	True
+pail_braga	Balde de fermentação	1	None	1	False	False	None		0	0	False	True
+pail_empty	Balde vazio	1	None	1	False	False	None		0	0	False	True
+pail_milk	Balde de leite	10	None	1	False	False	None	Universal,Food	0	0	False	True
+butterfly	Borboleta	30	Bait	1	False	False	None	Universal,Fishing	0	0	False	False
+maggot	Larva	30	Bait	1	False	False	None	Universal,Fishing	0	0	False	False
+moth	Mariposa	30	Bait	1	False	False	None	Universal,Fishing	0	0	False	False
+caldron	Caldeirão	1	None	1	False	False	None	Universal	0	0	False	True
+shit	Prato com...	1	None	1	False	False	None		0	0	False	True
+book_ruined_1	Livro destruído	10	None	1	False	False	None	Universal	0	0	False	False
+paper_clean	Papel vazio	50	None	1	False	False	None	Universal	0	0	False	False
+story:1	História	30	None	1	False	False	None	Universal	0	0	False	False
+story:2	História	30	None	1	False	False	None	Universal	0	0	False	False
+story:3	História	30	None	1	False	False	None	Universal	0	0	False	False
+notes:1	Anotações	30	None	1	False	False	None	Universal	0	0	False	False
+notes:2	Anotações	30	None	1	False	False	None	Universal	0	0	False	False
+notes:3	Anotações	30	None	1	False	False	None	Universal	0	0	False	False
+chapter:1	Capítulo	10	None	1	False	False	None	Universal	0	0	False	False
+chapter:2	Capítulo	10	None	1	False	False	None	Universal	0	0	False	False
+chapter:3	Capítulo	10	None	1	False	False	None	Universal	0	0	False	False
+cover:cover_1	Capa mole	10	None	1	False	False	None	Universal	0	0	False	False
+cover:cover_hard:1	Capa dura	10	None	1	False	False	None	Universal	0	0	False	False
+cover:cover_hard:2	Capa dura	10	None	1	False	False	None	Universal	0	0	False	False
+cover:cover_hard:3	Capa dura	10	None	1	False	False	None	Universal	0	0	False	False
+book_soft:1	Caderno	1	None	1	False	False	None	Universal	0	0	False	True
+book_soft:2	Caderno	1	None	1	False	False	None	Universal	0	0	False	True
+book_soft:3	Caderno	1	None	1	False	False	None	Universal	0	0	False	True
+book:book_hard:1	Livro	1	None	1	False	False	None	Universal	0	0	False	False
+book:book_hard:2	Livro	1	None	1	False	False	None	Universal	0	0	False	False
+book:book_hard:3	Livro	1	None	1	False	False	None	Universal	0	0	False	False
+black_paint	Tinta preta	30	None	1	False	False	None	Universal,Potions	0	0	False	False
+white_paint	Tinta branca	30	None	1	False	False	None	Universal,Potions	0	0	False	False
+blue_paint	Tinta azul	30	None	1	False	False	None	Universal,Potions	0	0	False	False
+d_green_paint	Tinta verde escuro	30	None	1	False	False	None	Universal,Potions	0	0	False	False
+d_violet_paint	Tinta violeta escuro	30	None	1	False	False	None	Universal,Potions	0	0	False	False
+diamond_paint	Tinta diamante	30	None	1	False	False	None	Universal,Potions	0	0	False	False
+green_paint	Tinta verde	30	None	1	False	False	None	Universal,Potions	0	0	False	False
+red_paint	Tinta vermelha	30	None	1	False	False	None	Universal,Potions	0	0	False	False
+spice_paint	Tinta abóbora	30	None	1	False	False	None	Universal,Potions	0	0	False	False
+violet_paint	Tinta violeta	30	None	1	False	False	None	Universal,Potions	0	0	False	False
+yellow_paint	Tinta amarela	30	None	1	False	False	None	Universal,Potions	0	0	False	False
+brown_paint	Tinta marrom	30	None	1	False	False	None	Universal,Potions	0	0	False	False
+pen:ink_pen	Caneta e tinta	1	None	1	True	False	None	Universal	0	0	True	False
+ink:ink_jar	Tinta	30	None	1	False	False	None	Universal	0	0	False	False
+flyer:flyer_bad	Panfleto	30	None	1	False	False	None	Universal	0	0	False	False
+skroll_skin_pig	Papel de couro de porco	50	None	1	False	False	None	Universal	0	0	False	False
+tanning_agent	Agente de bronzeamento	30	None	1	False	False	None	Universal,Potions	0	0	False	False
+note_wasted	Anotações destruídas	30	None	1	False	False	None	Universal	0	0	False	True
+techbook_g_2	Livro grande (g)	5	None	1	False	False	None	Universal	0	0	False	True
+techbook_b_2	Livro grande (b)	5	None	1	False	False	None	Universal	0	0	False	True
+techbook_r_2	Livro grande (r)	5	None	1	False	False	None	Universal	0	0	False	True
+techbook_g_1	Livro (g)	5	None	1	False	False	None	Universal	0	0	False	False
+techbook_b_1	Livro (b)	5	None	1	False	False	None	Universal	0	0	False	False
+techbook_r_1	Livro (r)	5	None	1	False	False	None	Universal	0	0	False	False
+scroll_blue	Guia do clérigo iniciante	5	None	1	False	False	None	Universal	0	0	False	True
+scroll_2	Certidão de sepultamento	50	None	1	False	False	None	Universal	0	0	False	False
+pen_1	Pena	30	None	1	False	False	None	Universal	0	0	False	False
+test_paper	test_paper	50	None	1	False	False	None		0	0	False	True
+test_scroll	test_scroll	50	None	1	False	False	None		0	0	False	True
+goo	Gosma	100	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+drop_oil	Óleo	100	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+drop_alcohol	Álcool	100	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_1_brown	Pó de retardamento	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_1_d_blue	Pó de aceleração	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_1_d_green	Pó de vida	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_1_d_violet	Pó da morte	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_1_green	Pó da ordem	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_1_red	Pó tóxico	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_1_violet	Pó de caos	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_1_yellow	Pó de ressurreição	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_1_yellow_electro	Pó elétrico	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+taste_booster:alchemy_1_spice	Especiarias	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_2_brown	Solução de retardamento	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_2_d_blue	Solução de aceleração	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_2_d_green	Solução de vida	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_2_d_violet	Solução de morte	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_2_green	Solução de ordem	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_2_red	Solução tóxica	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_2_violet	Solução do caos	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_2_yellow	Solução de vida	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_3_brown	Extrato de retardamento	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_3_d_blue	Extrato de aceleração	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_3_d_green	Extrato de vida	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_3_d_violet	Extrato da morte	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_3_green	Extrato da ordem	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_3_red	Extrato tóxico	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_3_violet	Extrato do caos	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_3_yellow	Extrato da vida	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+alchemy_2_empty	Copo de barro	50	None	1	False	False	None	Universal,Alchemy	0	0	False	True
+alchemy_3_empty	Frasco	50	None	1	False	False	None	Universal,Alchemy	0	0	False	True
+goo_alcohol	Gosma de álcool	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_ash	Gosma de cinza	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_blood	Gosma de sangue	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_brown	Gosma de retardo	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_d_blue	Gosma de aceleração	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_d_green	Gosma da saúde	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_d_violet	Gosma da morte	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_diamond	Gosma de diamante	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_gold	Gosma de ouro	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_graphite	Gosma de grafite	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_green	Gosma ou ordem	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_oil	Gosma de óleo	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_red	Gosma tóxica	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_salt	Gosma de sal	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_silver	Gosma de prata	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_spice	Gosma de tempero	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_violet	Gosma do caos	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_water	Gosma de água	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_white	Gosma branca	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_yellow	Gosma da vida	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+goo_yellow_electro	Gosma elétrica	50	None	1	False	False	None	Universal,Alchemy	0	0	False	False
+zombie_juise	Suco de zumbi	20	None	1	False	False	None	Universal,Alchemy,Potions	0	0	False	False
+grave_top_wd_tab_1	Marcador de madeira	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_wd_cross_1	Cruz de madeira	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_bot_wd_1	Cerca de madeira de túmulo	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_top_stn_plate_1	Lápide	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_bot_stn_1	Cerca de pedra de túmulo	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_top_stn_cross_1	Cruz de pedra	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_stn_plate_2	Lápide II	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_bot_stn_2	Cerca de pedra de túmulo II	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_top_stn_cross_2	Cruz de pedra II	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_stella_stn_1	Base de pedra	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_sculpt_stn_1	Escultura em pedra	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_sculpt_stn_2	Escultura em pedra II	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_bot_mrb_1	Cerca de mármore de túmulo	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_top_mrb_cross_1	Cruz de mármore	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_bot_mrb_2	Cerca de mármore de túmulo II	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_top_mrb_cross_2	Cruz de mármore II	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_stella_mrb_1	Base de mármore	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_sarcofag_mrb_1	Sarcófago de mármore	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_top_sculpt_mrb_1	Escultura de mármore	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_sculpt_mrb_2	Escultura de mármore II	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_bot_mrb_3	Cerca de mármore de túmulo III	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_bot_mrb_4	Cerca de mármore de túmulo IV	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_bot_mrb_5	Cerca de mármore de túmulo V	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_bot_stn_3	Cerca de pedra de túmulo III	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_bot_stn_4	Cerca de pedra de túmulo IV	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_bot_stn_5	Cerca de pedra de túmulo V	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_top_highangel_mrb_1	Escultura de mármore IV	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_highangel_stn_1	Escultura de pedra IV	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_memorial_mrb_1	Lápide de mármore III	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_memorial_stn_1	Lápide III	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_womansaver_mrb_1	Escultura de mármore III	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_womansaver_stn_1	Escultura de pedra III	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+recipe_advanced_gravestones	Receita: lápides avançadas	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_advanced_gravestones_2	Receita: lápides avançadas II	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_stone_statues	Receita: estátuas de pedra	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_marble_statues	Receita: estátuas de mármore	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_marble_fences	Receita: cercas de mármore	1	None	1	False	False	None	Universal	0	0	False	True
+grave_bot_stn_6	Cerca de pedra de túmulo VI	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_bot_stn_7	Cerca de pedra de túmulo VII	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_bot_stn_8	Cerca de pedra de túmulo VIII	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_bot_mrb_6	Cerca de mármore de túmulo VI	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_bot_mrb_7	Cerca de mármore de túmulo VII	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_bot_mrb_8	Cerca de mármore de túmulo VIII	1	GraveFence	1	True	False	None	Universal	0	0	False	False
+grave_top_sculpt_stn_4	Escultura de pedra V	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_sculpt_stn_5	Escultura de pedra VI	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_sculpt_mrb_4	Escultura de mármore V	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+grave_top_sculpt_mrb_5	Escultura de mármore VI	1	GraveStone	1	True	False	None	Universal	0	0	False	False
+pot_heal	Poção de cura	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+pot_mana	Poção de energia	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+pot_sweat	Alívio estomacal	1	None	1	False	False	None	Universal,Potions	0	0	False	True
+pot_appetite	Poção de digestão	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+pot_speed	Poção de velocidade	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+pot_heal_long	Poção de recuperação	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+pot_damage	Poção de raiva	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+pot_berserk	Poção de fúria	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+pot_armor	Poção de proteção	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+coins	Moedas	99	None	1	False	False	None	Universal	0	0	False	True
+flour	Farinha	100	None	1	False	False	None	Universal,Food	0	0	False	False
+permission	Licença de desenterro	20	None	1	False	False	None	Universal	0	0	False	False
+building_permission	Alvará de construção	1	None	1	False	False	None	Universal	0	0	False	True
+rightful_citizen_paper	Documentos de cidadão legítimo	1	None	1	False	False	None	Universal	0	0	False	True
+flw_chamomile	Flor branca	30	None	1	False	False	None	Universal	0	0	False	False
+flw_dandelion	Flor amarela	30	None	1	False	False	None	Universal	0	0	False	False
+flw_poppy	Flor vermelha	30	None	1	False	False	None	Universal	0	0	False	False
+raw_stone	Pedra bruta	1	None	1	False	False	None		0	0	False	True
+stone_plate	Placa de pedra	1	None	1	False	False	None		0	0	False	True
+cobblestone	Pedregulho	1	None	1	False	False	None		0	0	False	True
+preach_1	preach_1	1	Preach	1	False	False	None	Universal	0	0	False	True
+preach_2	preach_2	1	Preach	1	False	False	None	Universal	0	0	False	True
+b_empty	Oração informal	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_faith:1	Oração pela fé	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_faith:2	Oração pela fé	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_faith:3	Oração pela fé	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_faith_money:1	Oração combinada	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_faith_money:2	Oração combinada	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_faith_money:3	Oração combinada	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_money:1	Oração por doações	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_money:2	Oração por doações	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_money:3	Oração por doações	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_plant:1	Oração por brotos e raízes	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_plant:2	Oração por brotos e raízes	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_plant:3	Oração por brotos e raízes	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_shield:1	Oração por proteção	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_shield:2	Oração por proteção	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_shield:3	Oração por proteção	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_sins:1	Oração pelo arrependimento	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_sins:2	Oração pelo arrependimento	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_sins:3	Oração pelo arrependimento	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_skull:1	Oração pelo repouso	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_skull:2	Oração pelo repouso	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_skull:3	Oração pelo repouso	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_sword:1	Oração da vingança	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_sword:2	Oração da vingança	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_sword:3	Oração da vingança	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_village:1	Oração pela prosperidade	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_village:2	Oração pela prosperidade	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_village:3	Oração pela prosperidade	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_pen:1	Oração pela imaginação	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_pen:2	Oração pela imaginação	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_pen:3	Oração pela imaginação	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_star:1	Oração pela excelência	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_star:2	Oração pela excelência	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_star:3	Oração pela excelência	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_circle:1		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_circle:2		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_circle:3		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_techpoint_blue:1		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_techpoint_blue:2		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_techpoint_blue:3		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_techpoint_green:1		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_techpoint_green:2		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_techpoint_green:3		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_techpoint_red:1		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_techpoint_red:2		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_techpoint_red:3		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_random:1		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_random:2		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_random:3		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_ghost:1		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_ghost:2		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_ghost:3		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_cross:1		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_cross:2		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_cross:3		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_energy:1		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_energy:2		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_energy:3		1	Preach	1	False	False	None	Universal	0	0	False	False
+b_sin_shard:1	Orar pela purificação completa das almas	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_sin_shard:2	Orar pela purificação completa das almas	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_sin_shard:3	Orar pela purificação completa das almas	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_grat_points_incr:1	Orar pelo contentamento das almas	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_grat_points_incr:2	Orar pelo contentamento das almas	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_grat_points_incr:3	Orar pelo contentamento das almas	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_souls:1	Orar pelo repouso das almas	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_souls:2	Orar pelo repouso das almas	1	Preach	1	False	False	None	Universal	0	0	False	False
+b_souls:3	Orar pelo repouso das almas	1	Preach	1	False	False	None	Universal	0	0	False	False
+body	Corpo	1	Body	2	True	False	None		0	0	False	False
+body_guard	body_guard	1	Body	2	True	False	None		0	0	False	True
+unknown_body_part	Parte do corpo desconhecida	1	BodyUniversalPart	1	False	False	None	Universal	0	0	False	True
+skull	Caveira	10	BodyUniversalPart	1	False	False	None	Universal	0	-1	False	False
+bone	Osso	30	BodyUniversalPart	1	False	False	None	Universal	0	0	False	False
+flesh	Carne	30	BodyUniversalPart	1	False	False	None	Universal	1	0	False	False
+flesh:flesh_0_2	Carne modificada	1	BodyUniversalPart	1	False	False	None	Universal	2	0	False	True
+flesh:flesh_0_3	Carne modificada	1	BodyUniversalPart	1	False	False	None	Universal	3	0	False	True
+flesh:flesh_1_1	Carne modificada	1	BodyUniversalPart	1	False	False	None	Universal	1	1	False	True
+flesh:flesh_1_2	Carne modificada	1	BodyUniversalPart	1	False	False	None	Universal	2	1	False	True
+flesh:flesh_1_3	Carne modificada	1	BodyUniversalPart	1	False	False	None	Universal	3	1	False	True
+flesh:flesh_2_1	Carne modificada	1	BodyUniversalPart	1	False	False	None	Universal	1	2	False	True
+flesh:flesh_2_2	Carne modificada	1	BodyUniversalPart	1	False	False	None	Universal	2	2	False	True
+flesh:flesh_2_3	Carne modificada	1	BodyUniversalPart	1	False	False	None	Universal	3	2	False	True
+flesh:flesh_3_1	Carne modificada	1	BodyUniversalPart	1	False	False	None	Universal	1	3	False	True
+flesh:flesh_3_2	Carne modificada	1	BodyUniversalPart	1	False	False	None	Universal	2	3	False	True
+flesh:flesh_3_3	Carne modificada	1	BodyUniversalPart	1	False	False	None	Universal	3	3	False	True
+flesh:flesh_mod	Carne	1	BodyUniversalPart	1	False	False	None	Universal	1	0	False	True
+fat	Gordura	30	BodyUniversalPart	1	False	False	None	Universal	-1	1	False	False
+fat:fat_2_-1	Gordura modificada	1	BodyUniversalPart	1	False	False	None	Universal	-1	2	False	True
+fat:fat_3_-1	Gordura modificada	1	BodyUniversalPart	1	False	False	None	Universal	-1	3	False	True
+fat:fat_1_0	Gordura modificada	1	BodyUniversalPart	1	False	False	None	Universal	0	1	False	True
+fat:fat_1_1	Gordura modificada	1	BodyUniversalPart	1	False	False	None	Universal	1	1	False	True
+fat:fat_1_2	Gordura modificada	1	BodyUniversalPart	1	False	False	None	Universal	2	1	False	True
+fat:fat_1_3	Gordura modificada	1	BodyUniversalPart	1	False	False	None	Universal	3	1	False	True
+fat:fat_2_0	Gordura modificada	1	BodyUniversalPart	1	False	False	None	Universal	0	2	False	True
+fat:fat_2_1	Gordura modificada	1	BodyUniversalPart	1	False	False	None	Universal	1	2	False	True
+fat:fat_2_2	Gordura modificada	1	BodyUniversalPart	1	False	False	None	Universal	2	2	False	True
+fat:fat_2_3	Gordura modificada	1	BodyUniversalPart	1	False	False	None	Universal	3	2	False	True
+fat:fat_3_0	Gordura modificada	1	BodyUniversalPart	1	False	False	None	Universal	0	3	False	True
+fat:fat_3_1	Gordura modificada	1	BodyUniversalPart	1	False	False	None	Universal	1	3	False	True
+fat:fat_3_2	Gordura modificada	1	BodyUniversalPart	1	False	False	None	Universal	2	3	False	True
+fat:fat_3_3	Gordura modificada	1	BodyUniversalPart	1	False	False	None	Universal	3	3	False	True
+fat:fat_mod	Gordura	1	BodyUniversalPart	1	False	False	None	Universal	-1	1	False	True
+blood	Sangue	30	BodyUniversalPart	1	False	False	None	Universal,Alchemy	-1	1	False	False
+blood:blood_2_-1	Sangue modificado	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	-1	2	False	True
+blood:blood_3_-1	Sangue modificado	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	-1	3	False	True
+blood:blood_1_0	Sangue modificado	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	0	1	False	True
+blood:blood_1_1	Sangue modificado	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	1	1	False	True
+blood:blood_1_2	Sangue modificado	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	2	1	False	True
+blood:blood_1_3	Sangue modificado	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	3	1	False	True
+blood:blood_2_0	Sangue modificado	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	0	2	False	True
+blood:blood_2_1	Sangue modificado	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	1	2	False	True
+blood:blood_2_2	Sangue modificado	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	2	2	False	True
+blood:blood_2_3	Sangue modificado	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	3	2	False	True
+blood:blood_3_0	Sangue modificado	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	0	3	False	True
+blood:blood_3_1	Sangue modificado	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	1	3	False	True
+blood:blood_3_2	Sangue modificado	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	2	3	False	True
+blood:blood_3_3	Sangue modificado	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	3	3	False	True
+blood:blood_mod	Sangue	1	BodyUniversalPart	1	False	False	None	Universal,Alchemy	-1	1	False	True
+skin	Pele	30	BodyUniversalPart	1	False	False	None	Universal	1	-1	False	False
+skin:skin_-1_2	Pele modificada	1	BodyUniversalPart	1	False	False	None	Universal	2	-1	False	True
+skin:skin_-1_3	Pele modificada	1	BodyUniversalPart	1	False	False	None	Universal	3	-1	False	True
+skin:skin_0_1	Pele modificada	1	BodyUniversalPart	1	False	False	None	Universal	1	0	False	True
+skin:skin_0_2	Pele modificada	1	BodyUniversalPart	1	False	False	None	Universal	2	0	False	True
+skin:skin_0_3	Pele modificada	1	BodyUniversalPart	1	False	False	None	Universal	3	0	False	True
+skin:skin_1_1	Pele modificada	1	BodyUniversalPart	1	False	False	None	Universal	1	1	False	True
+skin:skin_1_2	Pele modificada	1	BodyUniversalPart	1	False	False	None	Universal	2	1	False	True
+skin:skin_1_3	Pele modificada	1	BodyUniversalPart	1	False	False	None	Universal	3	1	False	True
+skin:skin_2_1	Pele modificada	1	BodyUniversalPart	1	False	False	None	Universal	1	2	False	True
+skin:skin_2_2	Pele modificada	1	BodyUniversalPart	1	False	False	None	Universal	2	2	False	True
+skin:skin_2_3	Pele modificada	1	BodyUniversalPart	1	False	False	None	Universal	3	2	False	True
+skin:skin_3_1	Pele modificada	1	BodyUniversalPart	1	False	False	None	Universal	1	3	False	True
+skin:skin_3_2	Pele modificada	1	BodyUniversalPart	1	False	False	None	Universal	2	3	False	True
+skin:skin_3_3	Pele modificada	1	BodyUniversalPart	1	False	False	None	Universal	3	3	False	True
+skin:skin_mod	Pele	1	BodyUniversalPart	1	False	False	None	Universal	1	-1	False	True
+brain_dark	Cérebro sombrio	1	BodyUniversalPart	1	False	False	None	Universal	1	4	False	False
+heart_dark	Coração sombrio	1	BodyUniversalPart	1	False	False	None	Universal	1	4	False	False
+intestine_dark	Intestinos sombrios	1	BodyUniversalPart	1	False	False	None	Universal	1	4	False	False
+lungs_dark	Pulmões sombrios	1	BodyUniversalPart	1	False	False	None	Universal	1	4	False	False
+brain:brain_0_0	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	0	0	False	False
+brain:brain_1_1	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	1	1	False	False
+brain:brain_2_-1	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	-1	2	False	False
+brain:brain_0_2	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	2	0	False	False
+brain:brain_2_0	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	0	2	False	False
+brain:brain_0_1	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	1	0	False	False
+brain:brain_2_1	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	1	2	False	False
+brain:brain_2_2	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	2	2	False	False
+brain:brain_-2_3	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	3	-2	False	False
+brain:brain_4_1	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	1	4	False	False
+brain:brain_3_3	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	3	3	False	False
+brain:brain_0_3	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	3	0	False	False
+brain:brain_1_0	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	0	1	False	False
+brain:brain_1_2	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	2	1	False	False
+brain:brain_1_3	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	3	1	False	False
+brain:brain_2_3	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	3	2	False	False
+brain:brain_3_0	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	0	3	False	False
+brain:brain_3_1	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	1	3	False	False
+brain:brain_3_2	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	2	3	False	False
+brain:brain_3_-1	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	-1	3	False	False
+brain:brain_-1_3	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	3	-1	False	False
+brain:brain_4_2	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	2	4	False	False
+brain:brain_4_3	Cérebro	1	BodyUniversalPart	1	False	False	None	Universal	3	4	False	False
+heart:heart_0_0	Coração	1	BodyUniversalPart	1	False	False	None	Universal	0	0	False	False
+heart:heart_1_1	Coração	1	BodyUniversalPart	1	False	False	None	Universal	1	1	False	False
+heart:heart_2_-1	Coração	1	BodyUniversalPart	1	False	False	None	Universal	-1	2	False	False
+heart:heart_0_2	Coração	1	BodyUniversalPart	1	False	False	None	Universal	2	0	False	False
+heart:heart_2_0	Coração	1	BodyUniversalPart	1	False	False	None	Universal	0	2	False	False
+heart:heart_0_1	Coração	1	BodyUniversalPart	1	False	False	None	Universal	1	0	False	False
+heart:heart_2_1	Coração	1	BodyUniversalPart	1	False	False	None	Universal	1	2	False	False
+heart:heart_2_2	Coração	1	BodyUniversalPart	1	False	False	None	Universal	2	2	False	False
+heart:heart_-2_3	Coração	1	BodyUniversalPart	1	False	False	None	Universal	3	-2	False	False
+heart:heart_4_1	Coração	1	BodyUniversalPart	1	False	False	None	Universal	1	4	False	False
+heart:heart_3_3	Coração	1	BodyUniversalPart	1	False	False	None	Universal	3	3	False	False
+heart:heart_0_3	Coração	1	BodyUniversalPart	1	False	False	None	Universal	3	0	False	False
+heart:heart_1_0	Coração	1	BodyUniversalPart	1	False	False	None	Universal	0	1	False	False
+heart:heart_1_2	Coração	1	BodyUniversalPart	1	False	False	None	Universal	2	1	False	False
+heart:heart_1_3	Coração	1	BodyUniversalPart	1	False	False	None	Universal	3	1	False	False
+heart:heart_2_3	Coração	1	BodyUniversalPart	1	False	False	None	Universal	3	2	False	False
+heart:heart_3_0	Coração	1	BodyUniversalPart	1	False	False	None	Universal	0	3	False	False
+heart:heart_3_1	Coração	1	BodyUniversalPart	1	False	False	None	Universal	1	3	False	False
+heart:heart_3_2	Coração	1	BodyUniversalPart	1	False	False	None	Universal	2	3	False	False
+heart:heart_3_-1	Coração	1	BodyUniversalPart	1	False	False	None	Universal	-1	3	False	False
+heart:heart_-1_3	Coração	1	BodyUniversalPart	1	False	False	None	Universal	3	-1	False	False
+heart:heart_4_2	Coração	1	BodyUniversalPart	1	False	False	None	Universal	2	4	False	False
+heart:heart_4_3	Coração	1	BodyUniversalPart	1	False	False	None	Universal	3	4	False	False
+intestine:intestine_0_0	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	0	0	False	False
+intestine:intestine_1_1	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	1	1	False	False
+intestine:intestine_2_-1	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	-1	2	False	False
+intestine:intestine_0_2	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	2	0	False	False
+intestine:intestine_2_0	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	0	2	False	False
+intestine:intestine_0_1	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	1	0	False	False
+intestine:intestine_2_1	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	1	2	False	False
+intestine:intestine_2_2	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	2	2	False	False
+intestine:intestine_-2_3	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	3	-2	False	False
+intestine:intestine_4_1	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	1	4	False	False
+intestine:intestine_3_3	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	3	3	False	False
+intestine:intestine_0_3	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	3	0	False	False
+intestine:intestine_1_0	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	0	1	False	False
+intestine:intestine_1_2	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	2	1	False	False
+intestine:intestine_1_3	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	3	1	False	False
+intestine:intestine_2_3	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	3	2	False	False
+intestine:intestine_3_0	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	0	3	False	False
+intestine:intestine_3_1	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	1	3	False	False
+intestine:intestine_3_2	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	2	3	False	False
+intestine:intestine_3_-1	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	-1	3	False	False
+intestine:intestine_-1_3	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	3	-1	False	False
+intestine:intestine_4_2	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	2	4	False	False
+intestine:intestine_4_3	Intestinos	1	BodyUniversalPart	1	False	False	None	Universal	3	4	False	False
+organs:organs_1	Órgãos	5	BodyUniversalPart	1	False	False	None	Universal	0	0	False	False
+surgeon_mistake	Erro de cirurgião	1	BodyUniversalPart	1	False	False	None	Universal	-1	1	False	True
+lungs:lungs_1	Pulmões	1	None	1	False	False	None		0	0	False	False
+scalp	Couro cabeludo	1	BodyUniversalPart	1	False	False	None		0	0	False	False
+face	Rosto	1	BodyUniversalPart	1	False	False	None		0	0	False	True
+tongue	Língua	1	BodyUniversalPart	1	False	False	None		0	0	False	False
+eye	Olho	1	BodyUniversalPart	1	False	False	None		0	0	False	False
+ribs	Costelas	1	BodyUniversalPart	1	False	False	None		0	0	False	True
+pelvis	Pélvis	1	BodyUniversalPart	1	False	False	None		0	0	False	True
+liver	Fígado	1	BodyUniversalPart	1	False	False	None		0	0	False	True
+kidneys	Rins	1	BodyUniversalPart	1	False	False	None		0	0	False	True
+bud	Rins	1	BodyUniversalPart	1	False	False	None		0	0	False	True
+humerus	Úmero	1	BodyUniversalPart	1	False	False	None		0	0	False	True
+forearm	Antebraço	1	BodyUniversalPart	1	False	False	None		0	0	False	True
+hand	Mão	1	BodyUniversalPart	1	False	False	None		0	0	False	True
+muscle	Músculo	1	BodyUniversalPart	1	False	False	None		0	0	False	False
+human flesh	Carne humana	1	BodyUniversalPart	1	False	False	None		0	0	False	True
+human blood	Sangue humano	1	BodyUniversalPart	1	False	False	None		0	0	False	True
+embalm_1_1	Injeção de lixívia	5	None	1	False	False	None	Universal,Potions	1	1	False	False
+embalm_2_0	Injeção sombria	5	None	1	False	False	None	Universal,Potions	0	2	False	False
+embalm_0_1	Injeção de cola	5	None	1	False	False	None	Universal,Potions	1	0	False	False
+embalm_stop	Injeção de conservante	5	None	1	False	False	None	Universal,Potions	0	0	False	False
+embalm_50	Injeção de restauração	5	None	1	False	False	None	Universal,Potions	0	0	False	False
+embalm_-1_1	Injeção de prata	5	None	1	False	False	None	Universal,Potions	1	-1	False	False
+embalm_-2_2	Injeção de ouro	5	None	1	False	False	None	Universal,Potions	2	-2	False	False
+embalm_-1_-1	Injeção de ácido	5	None	1	False	False	None	Universal,Potions	-1	-1	False	False
+glue	Cola	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+dark_elixir	Elixir sombrio	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+alkali	Alcalino	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+acid	Ácido	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+flask_green_l_plus	Solução balsâmica	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+preservative	Conservante	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+silver_elixir	Elixir de prata	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+golden_elixir	Elixir de ouro	20	None	1	False	False	None	Universal,Potions	0	0	False	False
+test_paper:1	test_paper:1	10	None	1	False	False	None		0	0	False	True
+test_paper:2	test_paper:2	10	None	1	False	False	None		0	0	False	True
+test_paper:3	test_paper:3	10	None	1	False	False	None		0	0	False	True
+test_scroll:1	test_scroll:1	1	None	1	False	False	None		0	0	False	True
+test_scroll:2	test_scroll:2	1	None	1	False	False	None		0	0	False	True
+test_scroll:3	test_scroll:3	1	None	1	False	False	None		0	0	False	True
+pseudo_item_qual_2	pseudo_item_qual_2	1	None	1	False	False	None		0	0	False	True
+pseudo_item_qual_4	pseudo_item_qual_4	1	None	1	False	False	None		0	0	False	True
+pseudo_item_qual_10	pseudo_item_qual_10	1	None	1	False	False	None		0	0	False	True
+nitroglycerine		1	None	1	False	False	None		0	0	False	True
+recipe_Pies	Receita: Tortas	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_Veg	Receita: Saboroso e saudável	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_Sweet	Receita: Confeitaria	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_delicacies	Receita: Iguarias com peixe	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_Jelly	Receita: Geleia	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_2min	Receita: Simples e gostoso	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_honey	Receita: Cerveja especial	1	None	1	False	False	None	Universal	0	0	False	True
+hearthstone	Pedra de Regresso	1	None	1	False	False	None		0	0	False	True
+teleport_scroll	Pergaminho do teletransporte	10	None	1	False	False	None	Universal	0	0	False	True
+recipe_pot_speed	Receita: Poção de velocidade	1	None	1	False	False	None	Universal	0	0	False	True
+refugee_happiness_item	Felicidade de refugiado	20	None	1	False	False	None		0	0	False	False
+refugee_happiness_slot_item	Qualidade do Acampamento	10	None	1	False	False	None		0	0	False	True
+refugee_tent_place_available_item	O lugar livre	1	None	1	False	False	None		0	0	False	False
+refugee_tent_place_busy_item	O lugar ocupado	1	None	1	False	False	None		0	0	False	True
+donkey_lock_wool	Pedaço de pelo de burro	1	None	1	False	False	None	Universal	0	0	False	False
+garlic_bunch	Réstia de alho	3	None	1	False	False	None	Universal	0	0	False	True
+vampire_jaw	Presas de vampiro	1	None	1	False	False	None	Universal	0	0	False	True
+vampire_sunscreen	Protetor solar para vampiros	1	None	1	False	False	None	Universal	0	0	False	True
+memory_potion_receipt	Receita de tintura de memória	1	None	1	False	False	None	Universal	0	0	False	True
+book_of_receipts	Livro de receitas	1	None	1	False	False	None	Universal	0	0	False	False
+skeleton_leg	Perna de osso	1	None	1	False	False	None	Universal	0	0	False	True
+vampires_blackened_boot	Sapato de vampiro carbonizado	1	None	1	False	False	None	Universal	0	0	False	True
+witchers_eye	Olho do bruxo	1	None	1	False	False	None	Universal	0	0	False	True
+memory_potion	Tintura de memória	10	None	1	False	False	None	Universal,Potions	0	0	False	False
+details_pile	Pilha de componentes	5	None	1	False	False	None	Universal	0	0	False	True
+memory_powder	Pó de memória	10	None	1	False	False	None	Universal	0	0	False	False
+pagan_amulet	Amuleto pagão de invocação de espírito	1	None	1	False	False	None	Universal	0	0	False	False
+scroll_ghoul	Pergaminho de despertar carniçais	1	None	1	False	False	None	Universal	0	0	False	True
+dark_gold_cloak	Manto preto e dourado	1	None	1	False	False	None	Universal	0	0	False	True
+death_emulsion	Emulsão da morte	5	None	1	False	False	None	Universal,Potions	0	0	False	False
+unicorn_horn	Chifres de unicórnio de ferro	1	None	1	False	False	None	Universal	0	0	False	False
+jelly_splinter	Geleia de poder incrível	5	None	1	False	False	None	Universal	0	0	False	False
+magic_pumpkin	Abóbora mágica	1	None	1	False	False	None	Universal	0	0	False	False
+first_letter	Mensagem revolucionária №1	1	None	1	False	False	None	Universal	0	0	False	True
+second_letter	Mensagem revolucionária №2	1	None	1	False	False	None	Universal	0	0	False	True
+third_letter	Mensagem revolucionária №3	1	None	1	False	False	None	Universal	0	0	False	True
+revolutionary_banner	Estandarte revolucionário do burro	1	None	1	False	False	None	Universal	0	0	False	False
+battle_horseshoes	Ferraduras de batalha	1	None	1	False	False	None	Universal	0	0	False	False
+bank_check	Cheques bancários	1	None	1	False	False	None	Universal	0	0	False	False
+carl_bounded	Carlos amarrado	1	None	2	False	False	None	Universal	0	0	False	True
+aphorisms	Aforismos sobre os males do dinheiro	1	None	1	False	False	None	Universal	0	0	False	False
+note_from_unknown_1	Anotação de um João-Ninguém	1	None	1	False	False	None	Universal	0	0	False	True
+note_from_unknown_2	Anotação de um Zé-Ninguém	1	None	1	False	False	None	Universal	0	0	False	True
+note_from_unknown_3	Anotação de Fulano de Tal	1	None	1	False	False	None	Universal	0	0	False	True
+bag_alchemy	Bolsa do alquimista	1	Bag	1	False	True	Alchemy		0	0	False	False
+bag_farming	Bolsa do agricultor	1	Bag	1	False	True	Farming		0	0	False	False
+bag_fishing	Bolsa do pescador	1	Bag	1	False	True	Fishing		0	0	False	False
+bag_tools	Bolsa de ferramentas	1	Bag	1	False	True	Tools		0	0	False	False
+bag_potions	Bolsa para poções	1	Bag	1	False	True	Potions		0	0	False	False
+bag_builder	Bolsa do construtor	1	Bag	1	False	True	Builder		0	0	False	False
+bag_food	Bolsa de alimentos	1	Bag	1	False	True	Food		0	0	False	False
+bag_universal	Bolsa universal	1	Bag	1	False	True	Universal		0	0	False	False
+bag_universal_big	Grande bolsa universal	1	Bag	1	False	True	Universal		0	0	False	False
+recipe_bag_alchemy	Receita: Bolsa do alquimista	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_bag_farming	Receita: Bolsa do agricultor	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_bag_fishing	Receita: Bolsa do pescador	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_bag_tools	Receita: Bolsa de ferramentas	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_bag_potions	Receita: Bolsa para poções	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_bag_builder	Receita: Bolsa do construtor	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_bag_food	Receita: Bolsa de alimentos	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_bag_universal	Receita: Bolsa universal	1	None	1	False	False	None	Universal	0	0	False	True
+recipe_bag_universal_big	Receita: Bolsa universal grande	1	None	1	False	False	None	Universal	0	0	False	True
+soul_harmed_body_part	soul_harmed_body_part	1	SoulBodyPart	1	True	False	None		0	0	False	True
+soul_healed	Alma purificada	1	Soul	1	True	False	None	Universal	0	0	False	False
+soul_harmed	Alma danificada	1	Soul	1	True	False	None	Universal	0	0	False	False
+sin_shard	Fragmento de pecado	20	None	1	False	False	None	Universal	0	0	False	False
+sin_shard_body_part	Fragmento de pecado	20	BodyUniversalPart	1	False	False	None		0	0	False	True
+sin_greed:greed_0_1	sin_greed:greed_0_1	1	None	1	False	False	None		1	0	False	True
+sin_greed:greed_1_0	sin_greed:greed_1_0	1	None	1	False	False	None		0	1	False	True
+sin_greed:greed_1_1	sin_greed:greed_1_1	1	None	1	False	False	None		1	1	False	True
+sin_greed:greed_0_2	sin_greed:greed_0_2	1	None	1	False	False	None		2	0	False	True
+sin_greed:greed_2_0	sin_greed:greed_2_0	1	None	1	False	False	None		0	2	False	True
+sin_greed:greed_1_2	sin_greed:greed_1_2	1	None	1	False	False	None		2	1	False	True
+sin_greed:greed_2_1	sin_greed:greed_2_1	1	None	1	False	False	None		1	2	False	True
+sin_greed:greed_2_2	sin_greed:greed_2_2	1	None	1	False	False	None		2	2	False	True
+sin_greed:greed_0_3	sin_greed:greed_0_3	1	None	1	False	False	None		3	0	False	True
+sin_greed:greed_3_0	sin_greed:greed_3_0	1	None	1	False	False	None		0	3	False	True
+sin_greed:greed_1_3	sin_greed:greed_1_3	1	None	1	False	False	None		3	1	False	True
+sin_greed:greed_3_1	sin_greed:greed_3_1	1	None	1	False	False	None		1	3	False	True
+sin_greed:greed_2_3	sin_greed:greed_2_3	1	None	1	False	False	None		3	2	False	True
+sin_greed:greed_3_2	sin_greed:greed_3_2	1	None	1	False	False	None		2	3	False	True
+sin_greed:greed_3_3	sin_greed:greed_3_3	1	None	1	False	False	None		3	3	False	True
+sin_pride:pride_0_1	sin_pride:pride_0_1	1	None	1	False	False	None		1	0	False	True
+sin_pride:pride_1_0	sin_pride:pride_1_0	1	None	1	False	False	None		0	1	False	True
+sin_pride:pride_1_1	sin_pride:pride_1_1	1	None	1	False	False	None		1	1	False	True
+sin_pride:pride_0_2	sin_pride:pride_0_2	1	None	1	False	False	None		2	0	False	True
+sin_pride:pride_2_0	sin_pride:pride_2_0	1	None	1	False	False	None		0	2	False	True
+sin_pride:pride_1_2	sin_pride:pride_1_2	1	None	1	False	False	None		2	1	False	True
+sin_pride:pride_2_1	sin_pride:pride_2_1	1	None	1	False	False	None		1	2	False	True
+sin_pride:pride_2_2	sin_pride:pride_2_2	1	None	1	False	False	None		2	2	False	True
+sin_pride:pride_0_3	sin_pride:pride_0_3	1	None	1	False	False	None		3	0	False	True
+sin_pride:pride_3_0	sin_pride:pride_3_0	1	None	1	False	False	None		0	3	False	True
+sin_pride:pride_1_3	sin_pride:pride_1_3	1	None	1	False	False	None		3	1	False	True
+sin_pride:pride_3_1	sin_pride:pride_3_1	1	None	1	False	False	None		1	3	False	True
+sin_pride:pride_2_3	sin_pride:pride_2_3	1	None	1	False	False	None		3	2	False	True
+sin_pride:pride_3_2	sin_pride:pride_3_2	1	None	1	False	False	None		2	3	False	True
+sin_pride:pride_3_3	sin_pride:pride_3_3	1	None	1	False	False	None		3	3	False	True
+sin_sloth:sloth_0_1	sin_sloth:sloth_0_1	1	None	1	False	False	None		1	0	False	True
+sin_sloth:sloth_1_0	sin_sloth:sloth_1_0	1	None	1	False	False	None		0	1	False	True
+sin_sloth:sloth_1_1	sin_sloth:sloth_1_1	1	None	1	False	False	None		1	1	False	True
+sin_sloth:sloth_0_2	sin_sloth:sloth_0_2	1	None	1	False	False	None		2	0	False	True
+sin_sloth:sloth_2_0	sin_sloth:sloth_2_0	1	None	1	False	False	None		0	2	False	True
+sin_sloth:sloth_1_2	sin_sloth:sloth_1_2	1	None	1	False	False	None		2	1	False	True
+sin_sloth:sloth_2_1	sin_sloth:sloth_2_1	1	None	1	False	False	None		1	2	False	True
+sin_sloth:sloth_2_2	sin_sloth:sloth_2_2	1	None	1	False	False	None		2	2	False	True
+sin_sloth:sloth_0_3	sin_sloth:sloth_0_3	1	None	1	False	False	None		3	0	False	True
+sin_sloth:sloth_3_0	sin_sloth:sloth_3_0	1	None	1	False	False	None		0	3	False	True
+sin_sloth:sloth_1_3	sin_sloth:sloth_1_3	1	None	1	False	False	None		3	1	False	True
+sin_sloth:sloth_3_1	sin_sloth:sloth_3_1	1	None	1	False	False	None		1	3	False	True
+sin_sloth:sloth_2_3	sin_sloth:sloth_2_3	1	None	1	False	False	None		3	2	False	True
+sin_sloth:sloth_3_2	sin_sloth:sloth_3_2	1	None	1	False	False	None		2	3	False	True
+sin_sloth:sloth_3_3	sin_sloth:sloth_3_3	1	None	1	False	False	None		3	3	False	True
+sin_lust:lust_0_1	sin_lust:lust_0_1	1	None	1	False	False	None		1	0	False	True
+sin_lust:lust_1_0	sin_lust:lust_1_0	1	None	1	False	False	None		0	1	False	True
+sin_lust:lust_1_1	sin_lust:lust_1_1	1	None	1	False	False	None		1	1	False	True
+sin_lust:lust_0_2	sin_lust:lust_0_2	1	None	1	False	False	None		2	0	False	True
+sin_lust:lust_2_0	sin_lust:lust_2_0	1	None	1	False	False	None		0	2	False	True
+sin_lust:lust_1_2	sin_lust:lust_1_2	1	None	1	False	False	None		2	1	False	True
+sin_lust:lust_2_1	sin_lust:lust_2_1	1	None	1	False	False	None		1	2	False	True
+sin_lust:lust_2_2	sin_lust:lust_2_2	1	None	1	False	False	None		2	2	False	True
+sin_lust:lust_0_3	sin_lust:lust_0_3	1	None	1	False	False	None		3	0	False	True
+sin_lust:lust_3_0	sin_lust:lust_3_0	1	None	1	False	False	None		0	3	False	True
+sin_lust:lust_1_3	sin_lust:lust_1_3	1	None	1	False	False	None		3	1	False	True
+sin_lust:lust_3_1	sin_lust:lust_3_1	1	None	1	False	False	None		1	3	False	True
+sin_lust:lust_2_3	sin_lust:lust_2_3	1	None	1	False	False	None		3	2	False	True
+sin_lust:lust_3_2	sin_lust:lust_3_2	1	None	1	False	False	None		2	3	False	True
+sin_lust:lust_3_3	sin_lust:lust_3_3	1	None	1	False	False	None		3	3	False	True
+sin_envy:envy_0_1	sin_envy:envy_0_1	1	None	1	False	False	None		1	0	False	True
+sin_envy:envy_1_0	sin_envy:envy_1_0	1	None	1	False	False	None		0	1	False	True
+sin_envy:envy_1_1	sin_envy:envy_1_1	1	None	1	False	False	None		1	1	False	True
+sin_envy:envy_0_2	sin_envy:envy_0_2	1	None	1	False	False	None		2	0	False	True
+sin_envy:envy_2_0	sin_envy:envy_2_0	1	None	1	False	False	None		0	2	False	True
+sin_envy:envy_1_2	sin_envy:envy_1_2	1	None	1	False	False	None		2	1	False	True
+sin_envy:envy_2_1	sin_envy:envy_2_1	1	None	1	False	False	None		1	2	False	True
+sin_envy:envy_2_2	sin_envy:envy_2_2	1	None	1	False	False	None		2	2	False	True
+sin_envy:envy_0_3	sin_envy:envy_0_3	1	None	1	False	False	None		3	0	False	True
+sin_envy:envy_3_0	sin_envy:envy_3_0	1	None	1	False	False	None		0	3	False	True
+sin_envy:envy_1_3	sin_envy:envy_1_3	1	None	1	False	False	None		3	1	False	True
+sin_envy:envy_3_1	sin_envy:envy_3_1	1	None	1	False	False	None		1	3	False	True
+sin_envy:envy_2_3	sin_envy:envy_2_3	1	None	1	False	False	None		3	2	False	True
+sin_envy:envy_3_2	sin_envy:envy_3_2	1	None	1	False	False	None		2	3	False	True
+sin_envy:envy_3_3	sin_envy:envy_3_3	1	None	1	False	False	None		3	3	False	True
+sin_gluttony:gluttony_0_1	sin_gluttony:gluttony_0_1	1	None	1	False	False	None		1	0	False	True
+sin_gluttony:gluttony_1_0	sin_gluttony:gluttony_1_0	1	None	1	False	False	None		0	1	False	True
+sin_gluttony:gluttony_1_1	sin_gluttony:gluttony_1_1	1	None	1	False	False	None		1	1	False	True
+sin_gluttony:gluttony_0_2	sin_gluttony:gluttony_0_2	1	None	1	False	False	None		2	0	False	True
+sin_gluttony:gluttony_2_0	sin_gluttony:gluttony_2_0	1	None	1	False	False	None		0	2	False	True
+sin_gluttony:gluttony_1_2	sin_gluttony:gluttony_1_2	1	None	1	False	False	None		2	1	False	True
+sin_gluttony:gluttony_2_1	sin_gluttony:gluttony_2_1	1	None	1	False	False	None		1	2	False	True
+sin_gluttony:gluttony_2_2	sin_gluttony:gluttony_2_2	1	None	1	False	False	None		2	2	False	True
+sin_gluttony:gluttony_0_3	sin_gluttony:gluttony_0_3	1	None	1	False	False	None		3	0	False	True
+sin_gluttony:gluttony_3_0	sin_gluttony:gluttony_3_0	1	None	1	False	False	None		0	3	False	True
+sin_gluttony:gluttony_1_3	sin_gluttony:gluttony_1_3	1	None	1	False	False	None		3	1	False	True
+sin_gluttony:gluttony_3_1	sin_gluttony:gluttony_3_1	1	None	1	False	False	None		1	3	False	True
+sin_gluttony:gluttony_2_3	sin_gluttony:gluttony_2_3	1	None	1	False	False	None		3	2	False	True
+sin_gluttony:gluttony_3_2	sin_gluttony:gluttony_3_2	1	None	1	False	False	None		2	3	False	True
+sin_gluttony:gluttony_3_3	sin_gluttony:gluttony_3_3	1	None	1	False	False	None		3	3	False	True
+sin_wrath:wrath_0_1	sin_wrath:wrath_0_1	1	None	1	False	False	None		1	0	False	True
+sin_wrath:wrath_1_0	sin_wrath:wrath_1_0	1	None	1	False	False	None		0	1	False	True
+sin_wrath:wrath_1_1	sin_wrath:wrath_1_1	1	None	1	False	False	None		1	1	False	True
+sin_wrath:wrath_0_2	sin_wrath:wrath_0_2	1	None	1	False	False	None		2	0	False	True
+sin_wrath:wrath_2_0	sin_wrath:wrath_2_0	1	None	1	False	False	None		0	2	False	True
+sin_wrath:wrath_1_2	sin_wrath:wrath_1_2	1	None	1	False	False	None		2	1	False	True
+sin_wrath:wrath_2_1	sin_wrath:wrath_2_1	1	None	1	False	False	None		1	2	False	True
+sin_wrath:wrath_2_2	sin_wrath:wrath_2_2	1	None	1	False	False	None		2	2	False	True
+sin_wrath:wrath_0_3	sin_wrath:wrath_0_3	1	None	1	False	False	None		3	0	False	True
+sin_wrath:wrath_3_0	sin_wrath:wrath_3_0	1	None	1	False	False	None		0	3	False	True
+sin_wrath:wrath_1_3	sin_wrath:wrath_1_3	1	None	1	False	False	None		3	1	False	True
+sin_wrath:wrath_3_1	sin_wrath:wrath_3_1	1	None	1	False	False	None		1	3	False	True
+sin_wrath:wrath_2_3	sin_wrath:wrath_2_3	1	None	1	False	False	None		3	2	False	True
+sin_wrath:wrath_3_2	sin_wrath:wrath_3_2	1	None	1	False	False	None		2	3	False	True
+sin_wrath:wrath_3_3	sin_wrath:wrath_3_3	1	None	1	False	False	None		3	3	False	True
+sloth_charged_shard	Fragmento imbuído de preguiça	1	None	1	False	False	None		0	0	False	False
+wrath_charged_shard	Fragmento imbuído de ira	1	None	1	False	False	None		0	0	False	False
+envy_charged_shard	Fragmento imbuído de inveja	1	None	1	False	False	None		0	0	False	False
+gluttony_charged_shard	Fragmento imbuído de gula	1	None	1	False	False	None		0	0	False	False
+lust_charged_shard	Fragmento imbuído de luxúria	1	None	1	False	False	None		0	0	False	False
+pride_charged_shard	Fragmento imbuído de soberba	1	None	1	False	False	None		0	0	False	False
+souls_zone_key	Chave velha enferrujada	1	None	1	False	False	None	Universal	0	0	False	True
+ode_for_bishop	Ode ao bispo	1	None	1	False	False	None	Universal	0	0	False	True
+ash_on_shawl	Cinza incomum	1	None	1	False	False	None	Universal	0	0	False	True
+sauce_for_meal	Molho misterioso	1	None	1	False	False	None	Universal	0	0	False	False
+note_with_rumors	Anotação de boato	1	None	1	False	False	None	Universal	0	0	False	True
+gerry_tooth	Dente perdido	1	None	1	False	False	None	Universal	0	0	False	True
+global_control	Controle remoto de produção	1	None	1	False	False	None		0	0	False	True
+lost_book_part	Parte perdida do Livro do Coveiro	1	None	1	False	False	None	Universal	0	0	False	True
+gratitude_as_item	Gratidão da alma	1	None	1	False	False	None		0	0	False	True
