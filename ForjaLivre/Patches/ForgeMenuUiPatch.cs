@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using HarmonyLib;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
@@ -16,8 +15,14 @@ namespace ForjaLivre.Patches
     /// que abrem um <see cref="ForgeChoiceMenu"/> como menu-filho, e desenha o estado da escolha atual.
     /// Os botões são registrados como <see cref="ClickableComponent"/> de verdade (não retângulos soltos)
     /// para que participem do sistema de navegação por controle/teclado do jogo e tenham efeito de hover
-    /// igual aos outros botões da Forja. Só ficam ativos quando o slot esquerdo contém uma arma
-    /// corpo-a-corpo (não foice).</summary>
+    /// igual aos outros botões da Forja.
+    ///
+    /// "Escolher Estatística" só fica ativo com uma arma corpo-a-corpo no slot esquerdo (o mapeamento
+    /// gema→estatística é exclusivo de armas no jogo original). "Escolher Encantamento" fica ativo com
+    /// qualquer <see cref="Tool"/> no slot — arma ou qualquer outra ferramenta (Machado, Enxada, Regador,
+    /// Vara de Pescar, Picareta, Balde de Leite, Tesoura, Peneira...) — e lista dinamicamente, via
+    /// <c>BaseEnchantment.GetAvailableEnchantmentsForItem</c>, exatamente os encantamentos que aquele
+    /// item específico pode receber, já sem repetir nenhum que ele já tenha.</summary>
     [HarmonyPatch(typeof(ForgeMenu))]
     internal static class ForgeMenuUiPatch
     {
@@ -84,7 +89,9 @@ namespace ForjaLivre.Patches
             _enchantButton.leftNeighborID = ClickableComponent.SNAP_AUTOMATIC;
         }
 
-        private static bool TryGetWeapon(ForgeMenu menu, out MeleeWeapon weapon)
+        /// <summary>Só verdadeiro para uma arma corpo-a-corpo (não foice) — usado para o botão de
+        /// Estatística, já que gemas só concedem estatística em armas no jogo original.</summary>
+        private static bool TryGetMeleeWeapon(ForgeMenu menu, out MeleeWeapon weapon)
         {
             if (menu.leftIngredientSpot?.item is MeleeWeapon w && !w.isScythe())
             {
@@ -92,6 +99,20 @@ namespace ForjaLivre.Patches
                 return true;
             }
             weapon = null!;
+            return false;
+        }
+
+        /// <summary>Verdadeiro para qualquer ferramenta encantável no slot esquerdo — arma corpo-a-corpo
+        /// (não foice) ou qualquer outra <see cref="Tool"/> (Machado, Enxada, Regador, Vara de Pescar,
+        /// Picareta, Balde de Leite, Tesoura, Peneira...). Usado para o botão de Encantamento.</summary>
+        private static bool TryGetEnchantableItem(ForgeMenu menu, out Tool tool)
+        {
+            if (menu.leftIngredientSpot?.item is Tool t && !(t is MeleeWeapon w && w.isScythe()))
+            {
+                tool = t;
+                return true;
+            }
+            tool = null!;
             return false;
         }
 
@@ -118,14 +139,15 @@ namespace ForjaLivre.Patches
         {
             EnsureButtons(__instance);
 
-            // Invalida a escolha atual se a arma no slot esquerdo mudou (ou foi removida).
-            if (!ReferenceEquals(__instance.leftIngredientSpot?.item, ForgeChoiceState.TargetWeapon))
+            // Invalida a escolha atual se o item no slot esquerdo mudou (ou foi removido).
+            if (!ReferenceEquals(__instance.leftIngredientSpot?.item, ForgeChoiceState.TargetItem))
                 ForgeChoiceState.Clear();
 
-            bool hasWeapon = TryGetWeapon(__instance, out _);
+            bool hasMeleeWeapon = TryGetMeleeWeapon(__instance, out _);
+            bool hasEnchantableItem = TryGetEnchantableItem(__instance, out _);
 
-            DrawButton(b, _statButton!, hasWeapon, GetStatLabel());
-            DrawButton(b, _enchantButton!, hasWeapon, GetEnchantLabel());
+            DrawButton(b, _statButton!, hasMeleeWeapon, GetStatLabel());
+            DrawButton(b, _enchantButton!, hasEnchantableItem, GetEnchantLabel());
 
             // A ForgeMenu original já desenhou o cursor antes deste postfix rodar; sem redesenhá-lo
             // por cima dos nossos botões, o cursor ficava visualmente "atrás" deles.
@@ -164,8 +186,8 @@ namespace ForjaLivre.Patches
         private static string GetEnchantLabel()
         {
             ITranslationHelper translation = ModEntry.Instance.Helper.Translation;
-            return ForgeChoiceState.ChosenWeaponEnchantment != null
-                ? translation.Get("button.enchant.chosen", new { enchant = GetLabel(ForgeOptions.WeaponEnchantOptions, ForgeChoiceState.ChosenWeaponEnchantment) })
+            return ForgeChoiceState.ChosenEnchantment != null
+                ? translation.Get("button.enchant.chosen", new { enchant = ForgeChoiceState.ChosenEnchantmentLabel })
                 : translation.Get("button.enchant.choose");
         }
 
@@ -176,22 +198,22 @@ namespace ForjaLivre.Patches
             if (__instance.GetChildMenu() != null)
                 return;
 
-            if (!TryGetWeapon(__instance, out MeleeWeapon weapon))
+            if (!TryGetEnchantableItem(__instance, out Tool tool))
                 return;
 
             EnsureButtons(__instance);
 
-            if (_statButton!.bounds.Contains(x, y))
+            if (tool is MeleeWeapon weapon && _statButton!.bounds.Contains(x, y))
             {
                 Game1.playSound("smallSelect");
-                ForgeChoiceState.TargetWeapon = weapon;
+                ForgeChoiceState.TargetItem = tool;
                 __instance.SetChildMenu(BuildStatChoiceMenu(weapon));
             }
             else if (_enchantButton!.bounds.Contains(x, y))
             {
                 Game1.playSound("smallSelect");
-                ForgeChoiceState.TargetWeapon = weapon;
-                __instance.SetChildMenu(BuildEnchantChoiceMenu(weapon));
+                ForgeChoiceState.TargetItem = tool;
+                __instance.SetChildMenu(BuildEnchantChoiceMenu(tool));
             }
         }
 
@@ -227,29 +249,28 @@ namespace ForjaLivre.Patches
             return new ForgeChoiceMenu(translation.Get("menu.stat.title"), rows);
         }
 
-        private static ForgeChoiceMenu BuildEnchantChoiceMenu(MeleeWeapon weapon)
+        /// <summary>Monta o menu de escolha de encantamento perguntando diretamente ao jogo — via
+        /// <see cref="BaseEnchantment.GetAvailableEnchantmentsForItem"/> — quais encantamentos esse
+        /// item específico (arma ou qualquer outra ferramenta) pode receber agora. Essa lista já vem
+        /// filtrada pelo próprio jogo (mesma checagem que o sorteio aleatório original usaria) para só
+        /// incluir encantamentos válidos pra esse tipo de item e que ele ainda não tenha — por isso
+        /// toda opção aqui já é sempre habilitada, e nunca aparece uma repetida.</summary>
+        private static ForgeChoiceMenu BuildEnchantChoiceMenu(Tool item)
         {
             ITranslationHelper translation = ModEntry.Instance.Helper.Translation;
             var rows = new List<ForgeChoiceRow>();
 
-            List<BaseEnchantment> available = BaseEnchantment.GetAvailableEnchantmentsForItem(weapon);
+            List<BaseEnchantment> available = BaseEnchantment.GetAvailableEnchantmentsForItem(item);
 
-            foreach (ForgeOption option in ForgeOptions.WeaponEnchantOptions)
+            foreach (BaseEnchantment option in available)
             {
-                bool isCurrentlyApplied = weapon.enchantments.Any(e => e.GetType() == option.EnchantmentType);
-                bool isAvailable = available.Any(e => e.GetType() == option.EnchantmentType);
-                bool rowEnabled = isAvailable && !isCurrentlyApplied;
+                Type type = option.GetType();
+                string label = option.GetDisplayName();
 
-                string label = translation.Get(option.TranslationKey);
-                if (isCurrentlyApplied)
-                    label += " " + translation.Get("row.applied");
-                else if (!isAvailable)
-                    label += " " + translation.Get("row.unavailable");
-
-                Type type = option.EnchantmentType;
-                rows.Add(new ForgeChoiceRow(label, rowEnabled, onSelect: () =>
+                rows.Add(new ForgeChoiceRow(label, enabled: true, onSelect: () =>
                 {
-                    ForgeChoiceState.ChosenWeaponEnchantment = type;
+                    ForgeChoiceState.ChosenEnchantment = type;
+                    ForgeChoiceState.ChosenEnchantmentLabel = label;
                 }));
             }
 

@@ -17,8 +17,19 @@ namespace ForjaLivre
         }
     }
 
-    /// <summary>Catálogo das estatísticas de forja e dos encantamentos de arma disponíveis na Forja
-    /// do Vulcão, conforme https://pt.stardewvalleywiki.com/Forja.</summary>
+    /// <summary>Catálogo das estatísticas de forja aplicáveis por gema em armas corpo-a-corpo
+    /// (Rubi, Esmeralda, Água-marinha, Jade, Topázio, Ametista), conforme
+    /// https://pt.stardewvalleywiki.com/Forja. Esse mapeamento gema→estatística é fixo no próprio
+    /// jogo (não depende de <c>BaseEnchantment.GetAvailableEnchantmentsForItem</c>), por isso continua
+    /// sendo um catálogo escrito à mão.
+    ///
+    /// Já os encantamentos aplicados com o Fragmento Prismático — tanto os de arma (Hábil, Vampírico
+    /// etc.) quanto os de qualquer outra ferramenta (Eficiente, Generoso, Arqueólogo etc.) — não têm
+    /// mais um catálogo aqui: <see cref="Patches.ForgeMenuUiPatch"/> pergunta diretamente ao jogo, via
+    /// <c>BaseEnchantment.GetAvailableEnchantmentsForItem</c>, quais encantamentos aquele item específico
+    /// pode receber. Isso já vem filtrado pelo próprio jogo para nunca repetir um encantamento que o item
+    /// já tem, e cobre automaticamente qualquer encantamento de ferramenta que exista (presente ou
+    /// futuro), sem precisar manter uma lista fixa por tipo de ferramenta.</summary>
     internal static class ForgeOptions
     {
         /// <summary>As 6 estatísticas aplicáveis por gema (Rubi, Esmeralda, Água-marinha, Jade, Topázio, Ametista).</summary>
@@ -30,16 +41,6 @@ namespace ForjaLivre
             new ForgeOption(typeof(JadeEnchantment), "stat.critpower"),
             new ForgeOption(typeof(TopazEnchantment), "stat.defense"),
             new ForgeOption(typeof(AmethystEnchantment), "stat.weight"),
-        };
-
-        /// <summary>Os 5 encantamentos de arma aplicáveis com Fragmento Prismático.</summary>
-        public static readonly ForgeOption[] WeaponEnchantOptions =
-        {
-            new ForgeOption(typeof(ArtfulEnchantment), "enchant.artful"),
-            new ForgeOption(typeof(BugKillerEnchantment), "enchant.bugkiller"),
-            new ForgeOption(typeof(CrusaderEnchantment), "enchant.crusader"),
-            new ForgeOption(typeof(VampiricEnchantment), "enchant.vampiric"),
-            new ForgeOption(typeof(HaymakerEnchantment), "enchant.haymaker"),
         };
     }
 }

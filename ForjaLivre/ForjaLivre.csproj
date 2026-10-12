@@ -11,7 +11,7 @@
     <EnableHarmony>true</EnableHarmony>
 
     <!-- Caminho do jogo neste computador (evita depender da auto-detecção). -->
-    <GamePath>/home/jonathan/.local/share/Steam/steamapps/common/Stardew Valley</GamePath>
+    <GamePath>D:\SteamLibrary\steamapps\common\Stardew Valley</GamePath>
   </PropertyGroup>
 
   <ItemGroup>

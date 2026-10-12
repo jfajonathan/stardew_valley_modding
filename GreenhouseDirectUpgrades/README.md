@@ -103,3 +103,68 @@ original: só os offsets das três edições acima mudaram, todo o resto é idê
 - Se você trocar de save pra um em que a estufa **não** esteja desbloqueada ainda, o
   comportamento volta a ser "sem prerequisito nenhum de amizade" mesmo assim — o único
   gate que sobrou é `ccPantry`/`jojaPantry`, igual você pediu.
+
+## Instalação no PC Windows (sessão seguinte, sem memória da anterior)
+
+Numa sessão nova (sem acesso ao histórico da conversa que gerou o patch acima — só
+achei este README ao listar a pasta), você pediu pra instalar esse mesmo mod da
+estufa aqui no Windows (`D:\SteamLibrary\steamapps\common\Stardew Valley`), onde os
+mods são gerenciados pelo Vortex.
+
+### O que foi feito
+
+1. Copiei `NewGreenhouseUpgrades.dll` (o já patchado, deste repositório),
+   `manifest.json` e `config.json` direto pra
+   `Mods\NewGreenhouseUpgrades\` (arquivo simples, sem passar pelo Vortex).
+2. Nesse meio tempo o Vortex também baixou o mod **original** (não patchado) do
+   Nexus (pasta de staging dele:
+   `C:\Users\jfajo\AppData\Roaming\Vortex\stardewvalley\mods\NewGreenhouseUpgrades-35846-1-0-0-1752913571`)
+   e deployou os links dele — só que a estrutura do próprio arquivo do mod já vem com
+   uma pasta redundante (`NewGreenhouseUpgrades/NewGreenhouseUpgrades/...` e
+   `NewGreenhouseUpgrades/[CP]NewGreenhouseUpgrades/...`), e o Vortex não desfaz esse
+   aninhamento. Como isso caiu dentro da mesma pasta `Mods\NewGreenhouseUpgrades\` que
+   eu já tinha criado (que já tem `manifest.json` direto nela), o SMAPI não desce mais
+   um nível pra achar as duas subpastas do Vortex — ele já considera aquela pasta como
+   "um mod resolvido" e para de procurar. Ou seja, mesmo sem a minha pasta manual, essa
+   estrutura de duas subpastas dentro de uma só provavelmente já não seria lida pelo
+   SMAPI (a heurística dele só desembrulha automaticamente quando existe **exatamente
+   uma** subpasta, e aqui existem duas).
+3. Confirmei por hash (`md5sum`) que o `.dll` que o Vortex baixou é **diferente** do
+   `.dll` patchado deste repositório — o do Vortex ainda tem a checagem de amizade/carta
+   original. Então a cópia manual no passo 1 é a que realmente importa; a cópia do
+   Vortex, presa dentro da subpasta aninhada, fica órfã e inofensiva (SMAPI ignora).
+4. O pacote de Content Patcher do mod (que finalmente tinha os mapas
+   `Greenhouse1.tmx`/`Greenhouse2.tmx` que faltavam na entrega anterior — esses mapas
+   nunca foram salvos neste repositório, só as configs) estava enterrado em
+   `Mods\NewGreenhouseUpgrades\[CP]NewGreenhouseUpgrades\`. Copiei `manifest.json`,
+   `content.json` e os dois `.tmx` de lá pra `Mods\[CP]NewGreenhouseUpgrades\` — nível
+   certo, direto dentro de `Mods`, do lado do mod principal, igual aos outros pacotes
+   `[CP] ...` que você já tinha instalado.
+5. Percebi que o **Content Patcher** (o framework do Pathoschild, `Pathoschild.
+   ContentPatcher`) não estava instalado em lugar nenhum de `Mods` — o que bloqueava
+   não só o pacote visual da estufa, mas todos os outros mods `[CP] ...` da sua lista
+   (Clint Reforged, Community Center, Stardew Valley Expanded, Ridgeside Village etc.).
+   Avisei você, e você instalou pelo Vortex (Content Patcher 2.9.1, Nexus #1915).
+   Confirmei o `manifest.json` deployado (`UniqueID: "Pathoschild.ContentPatcher"`,
+   versão 2.9.1) antes de considerar o trabalho concluído.
+
+### Estado final em `Mods\` (Windows)
+
+```
+Mods\NewGreenhouseUpgrades\manifest.json       ← flat, patchado (o que o SMAPI usa)
+Mods\NewGreenhouseUpgrades\config.json
+Mods\NewGreenhouseUpgrades\NewGreenhouseUpgrades.dll
+Mods\NewGreenhouseUpgrades\NewGreenhouseUpgrades\...   ← lixo órfão do Vortex, ignorado pelo SMAPI
+Mods\NewGreenhouseUpgrades\[CP]NewGreenhouseUpgrades\...  ← idem, ignorado
+Mods\[CP]NewGreenhouseUpgrades\manifest.json   ← pacote visual, nível certo
+Mods\[CP]NewGreenhouseUpgrades\content.json
+Mods\[CP]NewGreenhouseUpgrades\assets\Greenhouse1.tmx
+Mods\[CP]NewGreenhouseUpgrades\assets\Greenhouse2.tmx
+Mods\ContentPatcher\...                        ← instalado depois, via Vortex
+```
+
+As duas subpastas órfãs dentro de `Mods\NewGreenhouseUpgrades\` não fazem mal (o
+SMAPI simplesmente não chega nelas), mas ficaram lá porque esta sessão não tem
+permissão de apagar arquivos na sua máquina — só de ler/escrever. Se quiser remover,
+é mais simples fazer isso pelo próprio Vortex (purge/remover o mod e reinstalar
+"limpo", já que a versão que importa está na cópia manual, não na dele).
