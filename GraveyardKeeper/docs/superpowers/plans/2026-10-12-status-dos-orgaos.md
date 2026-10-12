@@ -576,12 +576,14 @@ Apague `BepInEx/plugins/StatusDosOrgaos`. O mod não grava nada no save.
 
 Run (PowerShell, na raiz do repositório):
 ```powershell
-$src = "D:\SteamLibrary\steamapps\common\Graveyard Keeper\BepInEx\plugins\StatusDosOrgaos"
-$stage = "GraveyardKeeper\StatusDosOrgaos\release\stage\BepInEx\plugins\StatusDosOrgaos"
-New-Item -ItemType Directory -Force $stage | Out-Null
-Copy-Item "$src\StatusDosOrgaos.dll" $stage
-Compress-Archive -Path "GraveyardKeeper\StatusDosOrgaos\release\stage\BepInEx" -DestinationPath "GraveyardKeeper\StatusDosOrgaos\release\StatusDosOrgaos-1.0.0.zip" -Force
-Remove-Item -Recurse -Force "GraveyardKeeper\StatusDosOrgaos\release\stage"
+Add-Type -AssemblyName System.IO.Compression, System.IO.Compression.FileSystem
+$dir = "GraveyardKeeper\StatusDosOrgaos\release"
+New-Item -ItemType Directory -Force $dir | Out-Null
+$zip = (Resolve-Path $dir).Path + "\StatusDosOrgaos-1.0.0.zip"
+if (Test-Path $zip) { Remove-Item $zip -Force }
+$archive = [IO.Compression.ZipFile]::Open($zip, 'Create')
+[IO.Compression.ZipFileExtensions]::CreateEntryFromFile($archive, "D:\SteamLibrary\steamapps\common\Graveyard Keeper\BepInEx\plugins\StatusDosOrgaos\StatusDosOrgaos.dll", "BepInEx/plugins/StatusDosOrgaos/StatusDosOrgaos.dll") | Out-Null
+$archive.Dispose()
 ```
 Expected: o zip contém `BepInEx/plugins/StatusDosOrgaos/StatusDosOrgaos.dll`.
 
