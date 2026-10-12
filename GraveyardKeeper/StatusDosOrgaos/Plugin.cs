@@ -30,7 +30,7 @@ public class Plugin : BaseUnityPlugin
         ShowIcons = Config.Bind("2. Exibição", "Mostrar ícones de caveira", true,
             "Libera a linha de ícones que o jogo normalmente esconde até mais tarde na história.");
         ShowSummary = Config.Bind("2. Exibição", "Mostrar linha com números", true,
-            "Acrescenta 'Vermelhas: X  Brancas: Y' no tooltip.");
+            "Acrescenta a linha '(ícone) Vermelhas: X   (ícone) Brancas: Y' no tooltip.");
 
         Harmony.CreateAndPatchAll(typeof(Plugin).Assembly, Guid);
         Log.LogInfo($"{Name} {Version} carregado.");

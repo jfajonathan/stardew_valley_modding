@@ -6,7 +6,7 @@
 
 **Arquitetura:** o tooltip do jogo já tem uma seção de caveiras (`Item.GetItemBodyModificators()`), mas ela fica escondida até o jogador ter o parâmetro `p_cultist > 0` (ou `show_q_bparts > 0`, no caso de olho, língua, músculo e couro cabeludo). O plugin usa dois patches Harmony:
 1. Um prefix em `Item.GetItemBodyModificators` que, para órgãos, ignora essa trava e devolve os ícones de caveira no mesmo formato do jogo.
-2. Um postfix em `ItemDefinition.GetTooltipData` que acrescenta uma linha com os números ("Vermelhas: 4 · Brancas: 1").
+2. Um postfix em `ItemDefinition.GetTooltipData` que acrescenta uma linha com os números ("Vermelhas: 4   Brancas: 1", com os ícones de caveira).
 
 A lógica de quem conta como órgão e a formatação do texto ficam em código C# puro (`Core/`), coberto por testes xUnit.
 
@@ -32,9 +32,9 @@ A lógica de quem conta como órgão e a formatação do texto ficam em código 
 - As caveiras vêm de `Item.GetRedSkullsValue()` (`q_minus + param bp_minus_mod`) e `Item.GetWhiteSkullsValue()` (`q_plus + param bp_plus_mod`). Assim, órgãos melhorados no Organ Enhancer já saem com os valores certos.
 - O id codifica a qualidade como `heart:heart_<vermelhas>_<brancas>`. Exemplo do dump: `heart:heart_4_1` tem `q_minus = 4` e `q_plus = 1`.
 - Travas reais (dump do jogo):
-  - `Ppar("p_cultist") > 0`: coração, cérebro e intestino (24 variações cada), pulmões, e também carne, gordura, sangue, pele, osso, caveira e `organs`.
+  - `Ppar("p_cultist") > 0`: coração, cérebro e intestino (24 variações cada), `heart_dark`, `brain_dark`, `intestine_dark`, `lungs_dark`, e também carne, gordura, sangue, pele, osso, caveira e `organs`.
   - `Ppar("show_q_bparts") > 0`: olho, língua, músculo, couro cabeludo.
-  - Sem trava (já aparecem hoje): `heart_dark`, `brain_dark`, `intestine_dark`, `lungs_dark`.
+  - Não existe pulmão comum do tipo `BodyUniversalPart`: `lungs:lungs_1` tem tipo `None` e é ignorado; o único pulmão coberto é `lungs_dark`. Olho, língua, músculo e couro cabeludo são 0/0 (só a linha numérica aparece).
 - `BodyCraftGUI` (linha 56) também chama `GetItemBodyModificators()`, mas só para itens de embalsamamento, que não são órgãos. O patch não muda esse caminho.
 - `TechUnlock` (linha 316) chama `GetTooltipData(…, full_detail: false)`. A linha de números só é adicionada quando `full_detail == true`, para não poluir a tela de tecnologias.
 - O construtor `BubbleWidgetTextData(string, UITextStyles.TextStyle, NGUIText.Alignment, int)` tem parâmetros opcionais com tipos do NGUI. Por isso o projeto precisa referenciar também `Assembly-CSharp-firstpass.dll`.

@@ -14,6 +14,7 @@ internal static class TooltipSummaryPatch
         if (!Plugin.ShowSummary.Value || !Plugin.IsTargetOrgan(item)) return;
 
         var summary = SkullFormatter.Summary(item.GetRedSkullsValue(), item.GetWhiteSkullsValue());
+        __result.Add(new BubbleWidgetSeparatorData());
         __result.Add(new BubbleWidgetTextData(summary, UITextStyles.TextStyle.TinyDescription));
     }
 }

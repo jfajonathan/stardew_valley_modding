@@ -11,7 +11,7 @@ public class OrganClassifierTests
     [InlineData("heart:heart_4_1")]
     [InlineData("brain:brain_-2_3")]
     [InlineData("intestine:intestine_0_0")]
-    [InlineData("lungs:lungs_1")]
+    [InlineData("lungs_dark")]
     [InlineData("heart_dark")]
     [InlineData("eye")]
     [InlineData("tongue")]
